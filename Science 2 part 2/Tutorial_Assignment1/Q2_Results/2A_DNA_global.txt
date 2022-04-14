@@ -1,0 +1,357 @@
+########################################
+# Program: needle
+# Rundate: Sun 11 Apr 2021 16:51:33
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20210411-165520-0600-93322135-p1m.aupfile
+#    -bsequence emboss_needle-I20210411-165520-0600-93322135-p1m.bupfile
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Spike
+# 2: Spike
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3902
+# Identity:    3338/3902 (85.5%)
+# Similarity:  3338/3902 (85.5%)
+# Gaps:         220/3902 ( 5.6%)
+# Score: 14767.0
+# 
+#
+#=======================================
+
+Spike              1 ATGTTCATCTTCCTGCTGTTCCTGACCC---TGACCAGCGGCAGCG----     43
+                     ||||||.|.||||||.||.|.|||.|||   |||.||||  |||.|    
+Spike              1 ATGTTCGTGTTCCTGGTGCTGCTGCCCCTGGTGAGCAGC--CAGTGCGTG     48
+
+Spike             44 -ACCTGGACAGGTGCACCACCTTCGACGACGTGCAGGCCCCCAACTACAC     92
+                      |||||         |||||             |||| .||||.||.|.|
+Spike             49 AACCTG---------ACCAC-------------CAGG-ACCCAGCTGCCC     75
+
+Spike             93 CCAGC--ACACCAGCAG---CATGAGGGGCGTGTACTACCCCGACGAGAT    137
+                     ||.||  ||||||.|||   ||..|||||||||||||||||||||.||.|
+Spike             76 CCCGCCTACACCAACAGCTTCACCAGGGGCGTGTACTACCCCGACAAGGT    125
+
+Spike            138 CTTCAGGAGCGACACCCTGTACCTGACCCAGGACCTGTTCCTGCCCTTCT    187
+                     .|||||||||..|...|||.||...|||||||||||||||||||||||||
+Spike            126 GTTCAGGAGCAGCGTGCTGCACAGCACCCAGGACCTGTTCCTGCCCTTCT    175
+
+Spike            188 ACAGCAACGTGACCGGCTTCCACACCAT---------------CAACCAC    222
+                     .|||||||||||||.|.||||||.||||               ||||..|
+Spike            176 TCAGCAACGTGACCTGGTTCCACGCCATCCACGTGAGCGGCACCAACGGC    225
+
+Spike            223 ACC------TTCGGCAACCCCGTGATCCCCTTCAAGGACGGCATCTACTT    266
+                     |||      ||||.||||||||||.|.||||||||.||||||.|.|||||
+Spike            226 ACCAAGAGGTTCGACAACCCCGTGCTGCCCTTCAACGACGGCGTGTACTT    275
+
+Spike            267 CGCCGCCACCGAGAAGAGCAACGTGGTGAGGGGCTGGGTGTTCGGCAGCA    316
+                     ||||..||||||||||||||||.|..|.|||||||||.|.|||||||.||
+Spike            276 CGCCAGCACCGAGAAGAGCAACATCATCAGGGGCTGGATCTTCGGCACCA    325
+
+Spike            317 CCATGAACAACAAGAGCCAGAGCGTGATCATCATCAACAACAGCACCAAC    366
+                     ||.||.|||.|||||.|||||||.||.|.|||.|.||||||..|||||||
+Spike            326 CCCTGGACAGCAAGACCCAGAGCCTGCTGATCGTGAACAACGCCACCAAC    375
+
+Spike            367 GTGGTGATCAGGGCCTGCAACTTCGAGCTGTGCGACAACCCCTTCTTCGC    416
+                     ||||||||||.||..|||.|.|||.||.|.|||.||.||||||||.|.|.
+Spike            376 GTGGTGATCAAGGTGTGCGAGTTCCAGTTCTGCAACGACCCCTTCCTGGG    425
+
+Spike            417 CGTG---------------AGCAAGCCC---ATGGGCACCCAGACCCACA    448
+                     ||||               |.||||..|   ||||      |||.|.|..
+Spike            426 CGTGTACTACCACAAGAACAACAAGAGCTGGATGG------AGAGCGAGT    469
+
+Spike            449 CCATGATCTTCGACAACGCCTTCAACTGCACCTTCGAGTACATCAGCGAC    498
+                     .||.|.|.|.|..||.||||..|||||||||||||||||||.|.|||.|.
+Spike            470 TCAGGGTGTACAGCAGCGCCAACAACTGCACCTTCGAGTACGTGAGCCAG    519
+
+Spike            499 GCCTTC-------AGCCTGGACGTGAGCGAGAAGAGCGGCAACTTCAAGC    541
+                     .|||||       | ||||||   |.||.||.||   ||||||||||||.
+Spike            520 CCCTTCCTGATGGA-CCTGGA---GGGCAAGCAG---GGCAACTTCAAGA    562
+
+Spike            542 ACCTGAGGGAGTTCGTGTTCAAGAACAAGGACGGCTTCCTGTACGTGTAC    591
+                     |||||||||||||||||||||||||||..|||||||.|         |.|
+Spike            563 ACCTGAGGGAGTTCGTGTTCAAGAACATCGACGGCTAC---------TTC    603
+
+Spike            592 AAGGGCTACCAG----------CCCATCGACGTGGTGAGGGACCTG-CCC    630
+                     |||..||| |||          ||||||.||.|||||||||||||| |||
+Spike            604 AAGATCTA-CAGCAAGCACACCCCCATCAACCTGGTGAGGGACCTGCCCC    652
+
+Spike            631 AGCGGCTTCAACACCCTGAAGCCCATCTTCAAGCTGCCCCTGGGCATCAA    680
+                     || |||||||.|.|||||.|||||.|..|..|.||||||.|.||||||||
+Spike            653 AG-GGCTTCAGCGCCCTGGAGCCCCTGGTGGACCTGCCCATCGGCATCAA    701
+
+Spike            681 CATCACCAACTTCAGGGCCATCCTGACC--GC----------CTTCAGCC    718
+                     ||||||||..|||..|.||.|.|||.||  ||          |.|.|.||
+Spike            702 CATCACCAGGTTCCAGACCCTGCTGGCCCTGCACAGGAGCTACCTGACCC    751
+
+Spike            719 CCGCC--CAGGA----CATCTGGGGCACCAGCGCCGCCGCCTACTTCGTG    762
+                     |||.|  |||.|    |..||||..|.||.|||||||||||||||.||||
+Spike            752 CCGGCGACAGCAGCAGCGGCTGGACCGCCGGCGCCGCCGCCTACTACGTG    801
+
+Spike            763 GGCTACCTGAAGCCCACCACCTTCATGCTGAAGTACGACGAGAACGGCAC    812
+                     |||||||||.||||||..||||||.|||||||||||.|||||||||||||
+Spike            802 GGCTACCTGCAGCCCAGGACCTTCCTGCTGAAGTACAACGAGAACGGCAC    851
+
+Spike            813 CATCACCGACGCCGTGGACTGCAGCCAGAACCCCCTGGCCGAGCTGAAGT    862
+                     ||||||||||||||||||||||..||.|.||||||||..||||...||||
+Spike            852 CATCACCGACGCCGTGGACTGCGCCCTGGACCCCCTGAGCGAGACCAAGT    901
+
+Spike            863 GCAGCGTGAAGAGCTTCGAGATCGACAAGGGCATCTACCAGACCAGCAAC    912
+                     |||.|.|||||||||||....|.||.||||||||||||||||||||||||
+Spike            902 GCACCCTGAAGAGCTTCACCGTGGAGAAGGGCATCTACCAGACCAGCAAC    951
+
+Spike            913 TTCAGGGTGGTGCCCAGCGGCGA-CGTGGTGAGGTTCCCCAACATCACCA    961
+                     |||||||||..||||| |.|.|| |.|.||||||||||||||||||||||
+Spike            952 TTCAGGGTGCAGCCCA-CCGAGAGCATCGTGAGGTTCCCCAACATCACCA   1000
+
+Spike            962 ACCTGTGCCCCTTCGGCGAGGTGTTCAACGCCACCAAGTTCCCCAGCGTG   1011
+                     ||||||||||||||||||||||||||||||||||||.||||.||||||||
+Spike           1001 ACCTGTGCCCCTTCGGCGAGGTGTTCAACGCCACCAGGTTCGCCAGCGTG   1050
+
+Spike           1012 TACGCCTGGGAGAGGAAGAAGATCAGCAACTGCGTGGCCGACTACAGCGT   1061
+                     |||||||||.|.|||||||.||||||||||||||||||||||||||||||
+Spike           1051 TACGCCTGGAACAGGAAGAGGATCAGCAACTGCGTGGCCGACTACAGCGT   1100
+
+Spike           1062 GCTGTACAACAGCACCTTCTTCAGCACCTTCAAGTGCTACGGCGTGAGCG   1111
+                     |||||||||||||.||..|||||||||||||||||||||||||||||||.
+Spike           1101 GCTGTACAACAGCGCCAGCTTCAGCACCTTCAAGTGCTACGGCGTGAGCC   1150
+
+Spike           1112 CCACCAAGCTGAACGACCTGTGCTTCAGCAACGTGTACGCCGACAGCTTC   1161
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+Spike           1151 CCACCAAGCTGAACGACCTGTGCTTCACCAACGTGTACGCCGACAGCTTC   1200
+
+Spike           1162 GTGGTGAAGGGCGACGACGTGAGGCAGATCGCCCCCGGCCAGACCGGCGT   1211
+                     |||.|.|.|||||||||.||||||||||||||||||||||||||||||..
+Spike           1201 GTGATCAGGGGCGACGAGGTGAGGCAGATCGCCCCCGGCCAGACCGGCAA   1250
+
+Spike           1212 GATCGCCGACTACAACTACAAGCTGCCCGACGACTTCATGGGCTGCGTGC   1261
+                     ||||||||||||||||||||||||||||||||||||||..|||||||||.
+Spike           1251 GATCGCCGACTACAACTACAAGCTGCCCGACGACTTCACCGGCTGCGTGA   1300
+
+Spike           1262 TGGCCTGGAACACCAGGAACATCGACGCCACCAGCA------CCGGCAAC   1305
+                     |.||||||||||.||..|||.|.||      |||||      .|||||||
+Spike           1301 TCGCCTGGAACAGCAACAACCTGGA------CAGCAAGGTGGGCGGCAAC   1344
+
+Spike           1306 TACAACTACAAGTACAGGTACCTG---AGGCACGGCAAGCTGAGGCCCTT   1352
+                     |||||||||..|||||||   |||   |||.|..||||.||||.||||||
+Spike           1345 TACAACTACCTGTACAGG---CTGTTCAGGAAGAGCAACCTGAAGCCCTT   1391
+
+Spike           1353 CGAGAGGGACATCAGCAACGTGCCCT-TCAGCCCCGACGGCAAGCCCTGC   1401
+                     |||||||||||||||||.||.|..|| .|||    |.|||||      ||
+Spike           1392 CGAGAGGGACATCAGCACCGAGATCTACCAG----GCCGGCA------GC   1431
+
+Spike           1402 ACCCCCCCC------------GCCCTGAACTGCTACTGGCCCCTGAACGA   1439
+                     ||||||..|            |.|.|.||||||||||..||||||.| ||
+Spike           1432 ACCCCCTGCAACGGCGTGGAGGGCTTCAACTGCTACTTCCCCCTGCA-GA   1480
+
+Spike           1440 -CTACGGCTTCTACACCACCACCGGCATCGGCTACCAGCCCTACAGGGTG   1488
+                      ||||||||||.|..||||||.||||.|.|||||||||||||||||||||
+Spike           1481 GCTACGGCTTCCAGCCCACCAACGGCGTGGGCTACCAGCCCTACAGGGTG   1530
+
+Spike           1489 GTGGTGCTGAGCTTCGAGCTGCTGAACGCCCCCGCCACCGTGTGCGGCCC   1538
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+Spike           1531 GTGGTGCTGAGCTTCGAGCTGCTGCACGCCCCCGCCACCGTGTGCGGCCC   1580
+
+Spike           1539 CAAGCTGAGCACCGACCTGATCAAGAACCAGTGCGTGAACTTCAACTTCA   1588
+                     ||||..|||||||.|||||.|.||||||.|||||||||||||||||||||
+Spike           1581 CAAGAAGAGCACCAACCTGGTGAAGAACAAGTGCGTGAACTTCAACTTCA   1630
+
+Spike           1589 ACGGCCTGACCGGCACCGGCGTGCTGACCCCCAGCAGCAAGAGGTTCCAG   1638
+                     |||||||||||||||||||||||||||||...||||.|||||.|||||.|
+Spike           1631 ACGGCCTGACCGGCACCGGCGTGCTGACCGAGAGCAACAAGAAGTTCCTG   1680
+
+Spike           1639 CCCTTCCAGCAGTTCGGCAGGGACGTGAGCGACTTCACCGACAGCGTGAG   1688
+                     ||||||||||||||||||||||||.|...||||..|||||||..||||||
+Spike           1681 CCCTTCCAGCAGTTCGGCAGGGACATCGCCGACACCACCGACGCCGTGAG   1730
+
+Spike           1689 GGACCCCAAGACCAGCGAGATCCTGGACATCAGCCCCTGCGCCTTCGGCG   1738
+                     |||||||.|||||...||||||||||||||||.|||||||..||||||||
+Spike           1731 GGACCCCCAGACCCTGGAGATCCTGGACATCACCCCCTGCAGCTTCGGCG   1780
+
+Spike           1739 GCGTGAGCGTGATCACCCCCGGCACCAACGCCAGCAGCGAGGTGGCCGTG   1788
+                     |||||||||||||||||||||||||||||.||||||.|.|||||||||||
+Spike           1781 GCGTGAGCGTGATCACCCCCGGCACCAACACCAGCAACCAGGTGGCCGTG   1830
+
+Spike           1789 CTGTACCAGGACGTGAACTGCACCGACGTGAGCACC----GCCATCCACG   1834
+                     ||||||||||||||||||||||||||.|||    ||    ||||||||||
+Spike           1831 CTGTACCAGGACGTGAACTGCACCGAGGTG----CCCGTGGCCATCCACG   1876
+
+Spike           1835 CCGACCAGCTGACCCCCGCCTGGAGGATCTACAGCACCGGCAACAACGTG   1884
+                     |||||||||||||||||.||||||||.|.|||||||||||||.|||||||
+Spike           1877 CCGACCAGCTGACCCCCACCTGGAGGGTGTACAGCACCGGCAGCAACGTG   1926
+
+Spike           1885 TTCCAGACCCAGGCCGGCTGCCTGATCGGCGCCGAGCACGTGGACACCAG   1934
+                     |||||||||..|||||||||||||||||||||||||||||||.|||.|||
+Spike           1927 TTCCAGACCAGGGCCGGCTGCCTGATCGGCGCCGAGCACGTGAACAACAG   1976
+
+Spike           1935 CTACGAGTGCGACATCCCCATCGGCGCCGGCATCTGCGCCAGCTACCACA   1984
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+Spike           1977 CTACGAGTGCGACATCCCCATCGGCGCCGGCATCTGCGCCAGCTACCAGA   2026
+
+Spike           1985 CC-----------------GTGAGCCTGCTGAGGAGC---ACCAGCCAGA   2014
+                     ||                 |.|.|||     ||||||   .||||||   
+Spike           2027 CCCAGACCAACAGCCCCAGGAGGGCC-----AGGAGCGTGGCCAGCC---   2068
+
+Spike           2015 AGAGCATCGTGGCCTACACCATGAGCCTGGGCGCCGACAGCAGCATCGCC   2064
+                     ||||||||.|.||||||||||||||||||||||||||.|.||||.|.|||
+Spike           2069 AGAGCATCATCGCCTACACCATGAGCCTGGGCGCCGAGAACAGCGTGGCC   2118
+
+Spike           2065 TACAGCAACAACACCATCGCCATCCCCACCAACTTCAGCATCAGCATCAC   2114
+                     |||||||||||||.|||||||||||||||||||||||.|||||||.|.||
+Spike           2119 TACAGCAACAACAGCATCGCCATCCCCACCAACTTCACCATCAGCGTGAC   2168
+
+Spike           2115 CACCGAGGTGATGCCCGTGAGCATGGCCAAGACCAGCGTGGACTGCAACA   2164
+                     |||||||.|..||||||||||||||.|||||||||||||||||||||.||
+Spike           2169 CACCGAGATCCTGCCCGTGAGCATGACCAAGACCAGCGTGGACTGCACCA   2218
+
+Spike           2165 TGTACATCTGCGGCGACAGCACCGAGTGCGCCAACCTGCTGCTGCAGTAC   2214
+                     |||||||||||||||||||||||||||||..|||||||||||||||||||
+Spike           2219 TGTACATCTGCGGCGACAGCACCGAGTGCAGCAACCTGCTGCTGCAGTAC   2268
+
+Spike           2215 GGCAGCTTCTGCACCCAGCTGAACAGGGCCCTGAGCGGCATCGCCGCCGA   2264
+                     ||||||||||||||||||||||||||||||||||.|||||||||||..||
+Spike           2269 GGCAGCTTCTGCACCCAGCTGAACAGGGCCCTGACCGGCATCGCCGTGGA   2318
+
+Spike           2265 GCAGGACAGGAACACCAGGGAGGTGTTCGCCCAGGTGAAGCAGATGTACA   2314
+                     ||||||||.|||||||..|||||||||||||||||||||||||||.||||
+Spike           2319 GCAGGACAAGAACACCCAGGAGGTGTTCGCCCAGGTGAAGCAGATCTACA   2368
+
+Spike           2315 AGACCCCCACCCTGAAGTACTTCGGCGGCTTCAACTTCAGCCAGATCCTG   2364
+                     ||||||||.||.|.|||.||||||||||||||||||||||||||||||||
+Spike           2369 AGACCCCCCCCATCAAGGACTTCGGCGGCTTCAACTTCAGCCAGATCCTG   2418
+
+Spike           2365 CCCGACCCCCTGAAGCCCACCAAGAGGAGCTTCATCGAGGACCTGCTGTT   2414
+                     |||||||||...|||||||.||||||||||||||||||||||||||||||
+Spike           2419 CCCGACCCCAGCAAGCCCAGCAAGAGGAGCTTCATCGAGGACCTGCTGTT   2468
+
+Spike           2415 CAACAAGGTGACCCTGGCCGACGCCGGCTTCATGAAGCAGTACGGCGAGT   2464
+                     |||||||||||||||||||||||||||||||||.||||||||||||||.|
+Spike           2469 CAACAAGGTGACCCTGGCCGACGCCGGCTTCATCAAGCAGTACGGCGACT   2518
+
+Spike           2465 GCCTGGGCGACATCAACGCCAGGGACCTGATCTGCGCCCAGAAGTTCAAC   2514
+                     ||||||||||||||..||||||||||||||||||||||||||||||||||
+Spike           2519 GCCTGGGCGACATCGCCGCCAGGGACCTGATCTGCGCCCAGAAGTTCAAC   2568
+
+Spike           2515 GGCCTGACCGTGCTGCCCCCCCTGCTGACCGACGACATGATCGCCGCCTA   2564
+                     |||||||||||||||||||||||||||||||||||.|||||||||...||
+Spike           2569 GGCCTGACCGTGCTGCCCCCCCTGCTGACCGACGAGATGATCGCCCAGTA   2618
+
+Spike           2565 CACCGCCGCCCTGGTGAGCGGCACCGCCACCGCCGGCTGGACCTTCGGCG   2614
+                     ||||..|||||||.||..|||||||..||||..|||||||||||||||||
+Spike           2619 CACCAGCGCCCTGCTGGCCGGCACCATCACCAGCGGCTGGACCTTCGGCG   2668
+
+Spike           2615 CCGGCGCCGCCCTGCAGATCCCCTTCGCCATGCAGATGGCCTACAGGTTC   2664
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           2669 CCGGCGCCGCCCTGCAGATCCCCTTCGCCATGCAGATGGCCTACAGGTTC   2718
+
+Spike           2665 AACGGCATCGGCGTGACCCAGAACGTGCTGTACGAGAACCAGAAGCAGAT   2714
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+Spike           2719 AACGGCATCGGCGTGACCCAGAACGTGCTGTACGAGAACCAGAAGCTGAT   2768
+
+Spike           2715 CGCCAACCAGTTCAACAAGGCCATCAGCCAGATCCAGGAGAGCCTGACCA   2764
+                     |||||||||||||||||..||||||.||.||||||||||.|||||||.||
+Spike           2769 CGCCAACCAGTTCAACAGCGCCATCGGCAAGATCCAGGACAGCCTGAGCA   2818
+
+Spike           2765 CCACCAGCACCGCCCTGGGCAAGCTGCAGGACGTGGTGAACCAGAACGCC   2814
+                     .||||..||.||||||||||||||||||||||||||||||||||||||||
+Spike           2819 GCACCGCCAGCGCCCTGGGCAAGCTGCAGGACGTGGTGAACCAGAACGCC   2868
+
+Spike           2815 CAGGCCCTGAACACCCTGGTGAAGCAGCTGAGCAGCAACTTCGGCGCCAT   2864
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           2869 CAGGCCCTGAACACCCTGGTGAAGCAGCTGAGCAGCAACTTCGGCGCCAT   2918
+
+Spike           2865 CAGCAGCGTGCTGAACGACATCCTGAGCAGGCTGGACAAGGTGGAGGCCG   2914
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           2919 CAGCAGCGTGCTGAACGACATCCTGAGCAGGCTGGACAAGGTGGAGGCCG   2968
+
+Spike           2915 AGGTGCAGATCGACAGGCTGATCACCGGCAGGCTGCAGAGCCTGCAGACC   2964
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           2969 AGGTGCAGATCGACAGGCTGATCACCGGCAGGCTGCAGAGCCTGCAGACC   3018
+
+Spike           2965 TACGTGACCCAGCAGCTGATCAGGGCCGCCGAGATCAGGGCCAGCGCCAA   3014
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3019 TACGTGACCCAGCAGCTGATCAGGGCCGCCGAGATCAGGGCCAGCGCCAA   3068
+
+Spike           3015 CCTGGCCGCCACCAAGATGAGCGAGTGCGTGCTGGGCCAGAGCAAGAGGG   3064
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3069 CCTGGCCGCCACCAAGATGAGCGAGTGCGTGCTGGGCCAGAGCAAGAGGG   3118
+
+Spike           3065 TGGACTTCTGCGGCAAGGGCTACCACCTGATGAGCTTCCCCCAGGCCGCC   3114
+                     ||||||||||||||||||||||||||||||||||||||||||||..||||
+Spike           3119 TGGACTTCTGCGGCAAGGGCTACCACCTGATGAGCTTCCCCCAGAGCGCC   3168
+
+Spike           3115 CCCCACGGCGTGGTGTTCCTGCACGTGACCTACGTGCCCAGCCAGGAGAG   3164
+                     |||||||||||||||||||||||||||||||||||||||..||||||||.
+Spike           3169 CCCCACGGCGTGGTGTTCCTGCACGTGACCTACGTGCCCGCCCAGGAGAA   3218
+
+Spike           3165 GAACTTCACCACCGCCCCCGCCATCTGCCACGAGGGCAAGGCCTACTTCC   3214
+                     |||||||||||||||||||||||||||||||||.|||||||||.||||||
+Spike           3219 GAACTTCACCACCGCCCCCGCCATCTGCCACGACGGCAAGGCCCACTTCC   3268
+
+Spike           3215 CCAGGGAGGGCGTGTTCGTGTTCAACGGCACCAGCTGGTTCATCACCCAG   3264
+                     ||||||||||||||||||||..||||||||||..|||||||.|.||||||
+Spike           3269 CCAGGGAGGGCGTGTTCGTGAGCAACGGCACCCACTGGTTCGTGACCCAG   3318
+
+Spike           3265 AGGAACTTCTTC-AGCCCCCAGATCATCACCACCGACAACACCTTCGTGA   3313
+                     ||||||||||.| || ||||||||||||||||||||||||||||||||||
+Spike           3319 AGGAACTTCTACGAG-CCCCAGATCATCACCACCGACAACACCTTCGTGA   3367
+
+Spike           3314 GCGGCAACTGCGACGTGGTGATCGGCATCATCAACAACACCGTGTACGAC   3363
+                     |||||||||||||||||||||||||||||.|.||||||||||||||||||
+Spike           3368 GCGGCAACTGCGACGTGGTGATCGGCATCGTGAACAACACCGTGTACGAC   3417
+
+Spike           3364 CCCCTGCAGCCCGAGCTGGACAGCTTCAAGGAGGAGCTGGACAAGTACTT   3413
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3418 CCCCTGCAGCCCGAGCTGGACAGCTTCAAGGAGGAGCTGGACAAGTACTT   3467
+
+Spike           3414 CAAGAACCACACCAGCCCCGACGTGGACCTGGGCGACATCAGCGGCATCA   3463
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3468 CAAGAACCACACCAGCCCCGACGTGGACCTGGGCGACATCAGCGGCATCA   3517
+
+Spike           3464 ACGCCAGCGTGGTGAACATCCAGAAGGAGATCGACAGGCTGAACGAGGTG   3513
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3518 ACGCCAGCGTGGTGAACATCCAGAAGGAGATCGACAGGCTGAACGAGGTG   3567
+
+Spike           3514 GCCAAGAACCTGAACGAGAGCCTGATCGACCTGCAGGAGCTGGGCAAGTA   3563
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3568 GCCAAGAACCTGAACGAGAGCCTGATCGACCTGCAGGAGCTGGGCAAGTA   3617
+
+Spike           3564 CGAGCAGTACATCAAGTGGCCCTGGTACGTGTGGCTGGGCTTCATCGCCG   3613
+                     ||||||||||||||||||||||||||||.|.|||||||||||||||||||
+Spike           3618 CGAGCAGTACATCAAGTGGCCCTGGTACATCTGGCTGGGCTTCATCGCCG   3667
+
+Spike           3614 GCCTGATCGCCATCGTGATGGTGACCATCCTGCTGTGCTGCATGACCAGC   3663
+                     |||||||||||||||||||||||||||||.||||||||||||||||||||
+Spike           3668 GCCTGATCGCCATCGTGATGGTGACCATCATGCTGTGCTGCATGACCAGC   3717
+
+Spike           3664 TGCTGCAGCTGCCTGAAGGGCGCCTGCAGCTGCGGCAGCTGCTGCAAGTT   3713
+                     |||||||||||||||||||||..|||||||||||||||||||||||||||
+Spike           3718 TGCTGCAGCTGCCTGAAGGGCTGCTGCAGCTGCGGCAGCTGCTGCAAGTT   3767
+
+Spike           3714 CGACGAGGACGACAGCGAGCCCGTGCTGAAGGGCGTGAAGCTGCACTACA   3763
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Spike           3768 CGACGAGGACGACAGCGAGCCCGTGCTGAAGGGCGTGAAGCTGCACTACA   3817
+
+Spike           3764 CC   3765
+                     ||
+Spike           3818 CC   3819
+
+
+#---------------------------------------
+#---------------------------------------

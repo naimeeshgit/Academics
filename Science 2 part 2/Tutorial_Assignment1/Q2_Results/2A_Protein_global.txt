@@ -1,0 +1,145 @@
+########################################
+# Program: needle
+# Rundate: Sun 11 Apr 2021 13:16:03
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20210411-131600-0199-52269097-p2m.aupfile
+#    -bsequence emboss_needle-I20210411-131600-0199-52269097-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SARS-CoV
+# 2: SARS-CoV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1277
+# Identity:     974/1277 (76.3%)
+# Similarity:  1110/1277 (86.9%)
+# Gaps:          26/1277 ( 2.0%)
+# Score: 5223.0
+# 
+#
+#=======================================
+
+SARS-CoV           1 MFIFLLFLTLTSGSDLDRCTTFDDVQAPNYTQHTSSMRGVYYPDEIFRSD     50
+                     ||:||:.|.|.| |.....||...: .|.||  .|..|||||||::|||.
+SARS-CoV2          1 MFVFLVLLPLVS-SQCVNLTTRTQL-PPAYT--NSFTRGVYYPDKVFRSS     46
+
+SARS-CoV          51 TLYLTQDLFLPFYSNVTGFHTI-----NHT--FGNPVIPFKDGIYFAATE     93
+                     .|:.||||||||:||||.||.|     |.|  |.|||:||.||:|||:||
+SARS-CoV2         47 VLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTE     96
+
+SARS-CoV          94 KSNVVRGWVFGSTMNNKSQSVIIINNSTNVVIRACNFELCDNPFFAV---    140
+                     |||::|||:||:|:::|:||::|:||:|||||:.|.|:.|::||..|   
+SARS-CoV2         97 KSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYH    146
+
+SARS-CoV         141 -SKPMGTQTHTMIFDNAFNCTFEYISDAFSLDVSEKSGNFKHLREFVFKN    189
+                      :.....::...::.:|.||||||:|..|.:|:..|.||||:||||||||
+SARS-CoV2        147 KNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKN    196
+
+SARS-CoV         190 KDGFLYVYKGYQPIDVVRDLPSGFNTLKPIFKLPLGINITNFRAIL----    235
+                     .||:..:|..:.||::|||||.||:.|:|:..||:|||||.|:.:|    
+SARS-CoV2        197 IDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHR    246
+
+SARS-CoV         236 TAFSPAQDI--WGTSAAAYFVGYLKPTTFMLKYDENGTITDAVDCSQNPL    283
+                     :..:|....  |...||||:||||:|.||:|||:|||||||||||:.:||
+SARS-CoV2        247 SYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPL    296
+
+SARS-CoV         284 AELKCSVKSFEIDKGIYQTSNFRVVPSGDVVRFPNITNLCPFGEVFNATK    333
+                     :|.||::|||.::|||||||||||.|:..:|||||||||||||||||||:
+SARS-CoV2        297 SETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATR    346
+
+SARS-CoV         334 FPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVY    383
+                     |.|||||.||:||||||||||||||..||||||||||.||||||||:|||
+SARS-CoV2        347 FASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVY    396
+
+SARS-CoV         384 ADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTRNIDATST    433
+                     |||||::||:||||||||||.||||||||||||.|||:|||:.|:|:...
+SARS-CoV2        397 ADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVG    446
+
+SARS-CoV         434 GNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCT-PPALNCYWPLNDYG    482
+                     |||||.||..|...|:|||||||...:.....||. ....|||:||..||
+SARS-CoV2        447 GNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYG    496
+
+SARS-CoV         483 FYTTTGIGYQPYRVVVLSFELLNAPATVCGPKLSTDLIKNQCVNFNFNGL    532
+                     |..|.|:|||||||||||||||:|||||||||.||:|:||:|||||||||
+SARS-CoV2        497 FQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGL    546
+
+SARS-CoV         533 TGTGVLTPSSKRFQPFQQFGRDVSDFTDSVRDPKTSEILDISPCSFGGVS    582
+                     |||||||.|:|:|.||||||||::|.||:||||:|.|||||:||||||||
+SARS-CoV2        547 TGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVS    596
+
+SARS-CoV         583 VITPGTNASSEVAVLYQDVNCTDVSTAIHADQLTPAWRIYSTGNNVFQTQ    632
+                     |||||||.|::||||||.||||:|..|||||||||.||:||||:|||||:
+SARS-CoV2        597 VITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTR    646
+
+SARS-CoV         633 AGCLIGAEHVDTSYECDIPIGAGICASYHTVS----LLRSTSQKSIVAYT    678
+                     ||||||||||:.||||||||||||||||.|.:    ..||.:.:||:|||
+SARS-CoV2        647 AGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYT    696
+
+SARS-CoV         679 MSLGADSSIAYSNNTIAIPTNFSISITTEVMPVSMAKTSVDCNMYICGDS    728
+                     |||||::|:|||||:|||||||:||:|||::||||.||||||.|||||||
+SARS-CoV2        697 MSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDS    746
+
+SARS-CoV         729 TECANLLLQYGSFCTQLNRALSGIAAEQDRNTREVFAQVKQMYKTPTLKY    778
+                     |||:|||||||||||||||||:|||.|||:||:||||||||:||||.:|.
+SARS-CoV2        747 TECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKD    796
+
+SARS-CoV         779 FGGFNFSQILPDPLKPTKRSFIEDLLFNKVTLADAGFMKQYGECLGDINA    828
+                     |||||||||||||.||:||||||||||||||||||||:||||:|||||.|
+SARS-CoV2        797 FGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAA    846
+
+SARS-CoV         829 RDLICAQKFNGLTVLPPLLTDDMIAAYTAALVSGTATAGWTFGAGAALQI    878
+                     |||||||||||||||||||||:|||.||:||::||.|:||||||||||||
+SARS-CoV2        847 RDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQI    896
+
+SARS-CoV         879 PFAMQMAYRFNGIGVTQNVLYENQKQIANQFNKAISQIQESLTTTSTALG    928
+                     |||||||||||||||||||||||||.||||||.||.:||:||::|::|||
+SARS-CoV2        897 PFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALG    946
+
+SARS-CoV         929 KLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRL    978
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SARS-CoV2        947 KLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRL    996
+
+SARS-CoV         979 ITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKG   1028
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SARS-CoV2        997 ITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKG   1046
+
+SARS-CoV        1029 YHLMSFPQAAPHGVVFLHVTYVPSQERNFTTAPAICHEGKAYFPREGVFV   1078
+                     ||||||||:||||||||||||||:||:||||||||||:|||:||||||||
+SARS-CoV2       1047 YHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFV   1096
+
+SARS-CoV        1079 FNGTSWFITQRNFFSPQIITTDNTFVSGNCDVVIGIINNTVYDPLQPELD   1128
+                     .|||.||:|||||:.|||||||||||||||||||||:|||||||||||||
+SARS-CoV2       1097 SNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELD   1146
+
+SARS-CoV        1129 SFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNES   1178
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SARS-CoV2       1147 SFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNES   1196
+
+SARS-CoV        1179 LIDLQELGKYEQYIKWPWYVWLGFIAGLIAIVMVTILLCCMTSCCSCLKG   1228
+                     |||||||||||||||||||:||||||||||||||||:|||||||||||||
+SARS-CoV2       1197 LIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKG   1246
+
+SARS-CoV        1229 ACSCGSCCKFDEDDSEPVLKGVKLHYT   1255
+                     .||||||||||||||||||||||||||
+SARS-CoV2       1247 CCSCGSCCKFDEDDSEPVLKGVKLHYT   1273
+
+
+#---------------------------------------
+#---------------------------------------

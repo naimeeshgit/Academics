@@ -1,0 +1,138 @@
+#!/usr/bin/python3
+
+import sys
+import sqlite3
+import traceback
+import json
+import gzip
+
+
+def createVulnerabilityTable(connection):
+    connection.execute(
+        "CREATE TABLE IF NOT EXISTS vulnerability ("
+        "cve TEXT NOT NULL PRIMARY KEY,"
+        "description TEXT NOT NULL,"
+        "reference TEXT,"
+        "published DATE,"
+        "modified DATE"
+        ")"
+    )
+
+
+def beginDatabaseTransaction(connection):
+    connection.execute("BEGIN TRANSACTION")
+
+
+def commitDatabaseTransaction(connection):
+    connection.execute("COMMIT")
+
+
+def storeVulnerability(cursor, vulnerability):
+    values = [
+        vulnerability["cve"],
+        vulnerability["description"],
+        vulnerability["reference"],
+        vulnerability["published"],
+        vulnerability["modified"],
+    ]
+    cursor.execute(
+        "INSERT OR REPLACE INTO vulnerability ("
+        "cve,"
+        "description,"
+        "reference,"
+        "published,"
+        "modified"
+        ") "
+        "VALUES ("
+        "?,?,?,?,?"
+        ")",
+        values,
+    )
+
+
+def parseJSON(jsonGzFilename, cursor):
+    def getVulnerability(cve_item_object):
+        """
+        Create and return vulnerability object
+        from cve item object
+        """
+        vulnerability = {}
+        cve_object = cve_item_object["cve"]
+        vulnerability["cve"] = cve_object["CVE_data_meta"]["ID"]
+
+        references = []
+
+        for reference in cve_object["references"]["reference_data"]:
+            references.append(reference["url"])
+
+        vulnerability["reference"] = ",".join(references)
+        for desc in cve_object["description"]["description_data"]:
+            if desc["lang"] == "en":
+                vulnerability["description"] = desc["value"]
+                break
+
+        vulnerability["published"] = cve_item_object["publishedDate"]
+        vulnerability["modified"] = cve_item_object["lastModifiedDate"]
+
+        return vulnerability
+
+    def getVulnerabilities(jsonGzFilename):
+        """
+        Returns all vulnerabilities in given file
+        """
+        vulnerabilities = []
+
+        with gzip.open(jsonGzFilename, "r") as fin:
+            json_bytes = fin.read()
+
+        json_str = json_bytes.decode("utf-8")
+        file_object = json.loads(json_str)
+
+        # print(len(file_object["CVE_Items"]))
+        for cve_item_object in file_object["CVE_Items"]:
+
+            # Get a record
+            vulnerabilities.append(getVulnerability(cve_item_object))
+
+        return vulnerabilities
+
+    def databaseTransaction(jsonGzFilename, cursor):
+        vulnerabilities = getVulnerabilities(jsonGzFilename)
+
+        beginDatabaseTransaction(cursor)
+
+        for vulnerability in vulnerabilities:
+            storeVulnerability(cursor, vulnerability)
+
+        commitDatabaseTransaction(cursor)
+
+    databaseTransaction(jsonGzFilename, cursor)
+
+
+def main(jsonGzFilename, databaseFilename):
+    exitValue = 0
+    connection = None
+
+    try:
+        connection = sqlite3.connect(databaseFilename)
+        connection.isolation_level = None
+
+        createVulnerabilityTable(connection)
+        parseJSON(jsonGzFilename, connection.cursor())
+
+    except Exception as exception:
+        print(traceback.format_exc(), file=sys.stderr)
+        exitValue = 1
+
+    if connection:
+        connection.close()
+
+    return exitValue
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("usage: import-cvrf JSON-GZ-FILE DATABASE-FILE", file=sys.stderr)
+        sys.exit(2)
+
+    sys.exit(main(sys.argv[1], sys.argv[2]))
