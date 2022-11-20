@@ -1,0 +1,403 @@
+########################################
+# Program: water
+# Rundate: Sun 11 Apr 2021 17:07:22
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20210411-170720-0090-25505384-p2m.aupfile
+#    -bsequence emboss_water-I20210411-170720-0090-25505384-p2m.bupfile
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Spike
+# 2: Spike
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4534
+# Identity:    2619/4534 (57.8%)
+# Similarity:  2619/4534 (57.8%)
+# Gaps:        1196/4534 (26.4%)
+# Score: 6866.0
+# 
+#
+#=======================================
+
+Spike              1 ATGATCCACAGCGTGTTCCTGCTGATGTTCCTGCTGACCCCCACCGAGAG     50
+                     |||.|      ||||||||||.||      ||||||.|||          
+Spike              1 ATGTT------CGTGTTCCTGGTG------CTGCTGCCCC----------     28
+
+Spike             51 CTACGTGGACGTGGGCCCCGACAGCGTGAAGAGCGCCTGCATCGAGGTGG    100
+                          ||   |||.||..|.|..|||||||     |||           |
+Spike             29 -----TG---GTGAGCAGCCAGTGCGTGAA-----CCT-----------G     54
+
+Spike            101 ACATCCAGCAGACCTTCTTCGACAAGACCTGGCCCAGGCC--CATCGACG    148
+                     ||..||||  ||||           .|.|||.|||..|||  ||.|.|| 
+Spike             55 ACCACCAG--GACC-----------CAGCTGCCCCCCGCCTACACCAAC-     90
+
+Spike            149 TGAG-----CAAGGCCGACGGCATCATCTACCCC--CAGGG----CAGGA    187
+                       ||     |.|||     |||.|...|||||||  ||.||    |||||
+Spike             91 --AGCTTCACCAGG-----GGCGTGTACTACCCCGACAAGGTGTTCAGGA    133
+
+Spike            188 ----CCTACAGCAACATCACCATCACCTACCAGGGCCTGTTC---CCCTA    230
+                         |.|.|.|||       ||.|||   |||||.|||||||   ||||.
+Spike            134 GCAGCGTGCTGCA-------CAGCAC---CCAGGACCTGTTCCTGCCCTT    173
+
+Spike            231 C--CAGGGCGACCACGGCGACATGTACGTGTACAGCGCCGGCCACGCCAC    278
+                     |  |||      ||..|.|||.||     ||.|..||||..|||||..|.
+Spike            174 CTTCAG------CAACGTGACCTG-----GTTCCACGCCATCCACGTGAG    212
+
+Spike            279 CGGCACCACC--CCCCAGAAGCTGTTCGTGGCCAACTACAGCCAGGACGT    326
+                     ||||||||.|  |.||  |||..|||||         |||.||   .|||
+Spike            213 CGGCACCAACGGCACC--AAGAGGTTCG---------ACAACC---CCGT    248
+
+Spike            327 GAAGCAGTTCGCCAACGGCTTCGTGGTG-AGGATCGGCGCCGCCGCCAAC    375
+                     |..||..|||..|.|||||      ||| |          |..|||   |
+Spike            249 GCTGCCCTTCAACGACGGC------GTGTA----------CTTCGC---C    279
+
+Spike            376 AGCACCG------GCACCGTGATCATCAGCCCCAGCACCAGCGCCACCA-    418
+                     |||||||      |||.|   ||||||||...|.|.|.|..||.||||| 
+Spike            280 AGCACCGAGAAGAGCAAC---ATCATCAGGGGCTGGATCTTCGGCACCAC    326
+
+Spike            419 -----TCAGGAAGATCTACCCC---GCCTTCATGCTGGGCAGCAGCGTGG    460
+                          .|||.||||     |||   |||    |||||      |.||||.
+Spike            327 CCTGGACAGCAAGA-----CCCAGAGCC----TGCTG------ATCGTGA    361
+
+Spike            461 GCAACTTCAGCGACG------GCAAGATGGGC-AG-----GTTCTTCAAC    498
+                     .||||..||.|.|||      .||||.||.|| ||     |||||.||||
+Spike            362 ACAACGCCACCAACGTGGTGATCAAGGTGTGCGAGTTCCAGTTCTGCAAC    411
+
+Spike            499 CACAC---CCTGGTGC---TGCTGCC----------CGACGGCTGCGGCA    532
+                     .||.|   ||||| ||   |.||.||          |.|..||||     
+Spike            412 GACCCCTTCCTGG-GCGTGTACTACCACAAGAACAACAAGAGCTG-----    455
+
+Spike            533 CCCTGCT-GAGGGCCTTCTACTGCATCCTGGAGCCCAGGAGCGGCAACCA    581
+                         |.| |||.|    |.|.|   ||..||.|..|||.||||.||||.|
+Spike            456 ----GATGGAGAG----CGAGT---TCAGGGTGTACAGCAGCGCCAACAA    494
+
+Spike            582 CTGCCCCGCCGGCAACAGCTAC----ACCAGCTTCGCCACCTACC-----    622
+                     ||||.||..||     || |||    .|||||       |||.||     
+Spike            495 CTGCACCTTCG-----AG-TACGTGAGCCAGC-------CCTTCCTGATG    531
+
+Spike            623 -ACACCCCCGCCACCGACTGCAGCG-----ACGGCAACTACAACAGGAAC    666
+                      ||              |||.||.|     |.|||||||.|||   ||| 
+Spike            532 GAC--------------CTGGAGGGCAAGCAGGGCAACTTCAA---GAA-    563
+
+Spike            667 GCCAGCCTGAACAGCTTCAAGGAGTAC---TTCAACCTGAGGA---ACTG    710
+                          ||||         |.|||||.|   |||||   ||..|   ||.|
+Spike            564 -----CCTG---------AGGGAGTTCGTGTTCAA---GAACATCGACGG    596
+
+Spike            711 CACCTTC---ATGTACACCTACAACATCACCGAGGACGAGAT---CCTGG    754
+                     |..||||   ||.||||.|.|..|||.|.||         ||   |||||
+Spike            597 CTACTTCAAGATCTACAGCAAGCACACCCCC---------ATCAACCTGG    637
+
+Spike            755 AGTGGTTCGGCATCACCCAGACC--GCCCAGGGCGTGCACCTGTTCAGC-    801
+                     .|.||              ||||  .||||||||         |||||| 
+Spike            638 TGAGG--------------GACCTGCCCCAGGGC---------TTCAGCG    664
+
+Spike            802 ------AGCAGGTAC----GTGGACCTG----TACGGCGGCAACAT----    833
+                           |||     |    |||||||||    | ||||..||||||    
+Spike            665 CCCTGGAGC-----CCCTGGTGGACCTGCCCAT-CGGCATCAACATCACC    708
+
+Spike            834 --GTTCCAGTTCGCCACCCTGC---CCGTGTACGACACCATCAAGTA-CT    877
+                       |||||||      |||||||   ||.||.||          ||.| ||
+Spike            709 AGGTTCCAG------ACCCTGCTGGCCCTGCAC----------AGGAGCT    742
+
+Spike            878 ACAGCATCATCCCCC----ACAGCATCAGGAGCATCCAGAGCGACAGGAA    923
+                     ||...|    |||||    ||||||.|            ||||.|.|||.
+Spike            743 ACCTGA----CCCCCGGCGACAGCAGC------------AGCGGCTGGAC    776
+
+Spike            924 GGCCTGG----GCCGCCTTCTACGTGTACAAGCTGCAGCCCCTGACCTTC    969
+                     .||| ||    |||||||.|||||||..|.|.|||||||||..|||||||
+Spike            777 CGCC-GGCGCCGCCGCCTACTACGTGGGCTACCTGCAGCCCAGGACCTTC    825
+
+Spike            970 CTGCTGGACTTCAGCGTGGACGGCTACATCA-GGAGGGCCATCGACTGCG   1018
+                     ||||||.|.|.||.||.|.|||||..||||| .|| .|||.|.|||||||
+Spike            826 CTGCTGAAGTACAACGAGAACGGCACCATCACCGA-CGCCGTGGACTGCG    874
+
+Spike           1019 GCTTCAACGACCTGAGCCAGCTGCAC----TGCAGCTACGAGAGCTTCGA   1064
+                     .|.|..||..|||||||.||    ||    ||||.|....||||||||..
+Spike            875 CCCTGGACCCCCTGAGCGAG----ACCAAGTGCACCCTGAAGAGCTTCAC    920
+
+Spike           1065 CGTGGAGAGCGGCGTGTAC---AGCGTGAGCAGCTTCGAGGCCAAGCCCA   1111
+                     ||||||||..|||.|.|||   |.|   ||||.||||..||...||||||
+Spike            921 CGTGGAGAAGGGCATCTACCAGACC---AGCAACTTCAGGGTGCAGCCCA    967
+
+Spike           1112 GCGGCAGCGTGGTGGAGCAGG---CCGAGGGCGTGGAGTGCGACTTCAGC   1158
+                     .||..|||.|.|||    |||   ||              |.||.|||.|
+Spike            968 CCGAGAGCATCGTG----AGGTTCCC--------------CAACATCACC    999
+
+Spike           1159 CCCCTGCTGAGCGGCACCCC--CCCCCAGGTGTACAACTTCAAGAGGCTG   1206
+                     ..|||| ||       ||||  |..|.||||||.||||..||..||    
+Spike           1000 AACCTG-TG-------CCCCTTCGGCGAGGTGTTCAACGCCACCAG----   1037
+
+Spike           1207 GTGTTCACCAAC-TGCAACTACAACCTG----ACCAAGCTGCTGAGC--C   1249
+                       ||||.|||.| ||    ||| .||||    |..|||..|.|.|||  |
+Spike           1038 --GTTCGCCAGCGTG----TAC-GCCTGGAACAGGAAGAGGATCAGCAAC   1080
+
+Spike           1250 TGTTCAGCGTGAACGACTTCA-CCTGCAGCCAGATCAGCCCCGCCGCCAT   1298
+                     |     |||||..|||||.|| |.|||.| .|.|.||||.||..|..||.
+Spike           1081 T-----GCGTGGCCGACTACAGCGTGCTG-TACAACAGCGCCAGCTTCAG   1124
+
+Spike           1299 CGCCAGCAACTGCTACAGC---AGCCTGATC---CTGGAC------TACT   1336
+                     |.||..|||.||||||.||   ||||..|.|   |||.||      |.||
+Spike           1125 CACCTTCAAGTGCTACGGCGTGAGCCCCACCAAGCTGAACGACCTGTGCT   1174
+
+Spike           1337 TCAGC------TACCCCCTGAGC------ATGAAGAGCGACCTGAGCGTG   1374
+                     |||.|      |||.||...|||      ||.|.|.|||||  ||| |||
+Spike           1175 TCACCAACGTGTACGCCGACAGCTTCGTGATCAGGGGCGAC--GAG-GTG   1221
+
+Spike           1375 A-GCAG-----CGCCGGCC---CC------ATCAGCC-AGTTCAACTACA   1408
+                     | ||||     |.||||||   ||      ||| ||| |.|.||||||||
+Spike           1222 AGGCAGATCGCCCCCGGCCAGACCGGCAAGATC-GCCGACTACAACTACA   1270
+
+Spike           1409 AGC-------AGAGCTTCAGCAACCCCACCTGCCTGAT--CCTGGCCACC   1449
+                     |||       .|| |||||      ||..||||.||||  ||||| .||.
+Spike           1271 AGCTGCCCGACGA-CTTCA------CCGGCTGCGTGATCGCCTGG-AACA   1312
+
+Spike           1450 GTGCCCCACAACCT-GACCACCATCACCAAGCCCCTG------AAGTACA   1492
+                     |    |.||||||| ||       ||.||||   .||      ||.||||
+Spike           1313 G----CAACAACCTGGA-------CAGCAAG---GTGGGCGGCAACTACA   1348
+
+Spike           1493 GCTACATCAACAAG-TG--------CAGCAGGCTG-----CT----GAGC   1524
+                     .||||.|..|||.| ||        .||||..|||     ||    |||.
+Spike           1349 ACTACCTGTACAGGCTGTTCAGGAAGAGCAACCTGAAGCCCTTCGAGAGG   1398
+
+Spike           1525 GACGACAGGACCGAGGTGCCCCAGCTGGTGAACGCCAACCAGTACAGCCC   1574
+                     |||..|||.||||||.|                  |.|||||..|.||  
+Spike           1399 GACATCAGCACCGAGAT------------------CTACCAGGCCGGC--   1428
+
+Spike           1575 CTGCGTGAGCATCGTGCCCAGCACCGTGTG-GGAGGACGGCGACTACTAC   1623
+                            ||||.|   |||.|||.|| |.| |||||.|..|.|||.||||
+Spike           1429 -------AGCACC---CCCTGCAACG-GCGTGGAGGGCTTCAACTGCTAC   1467
+
+Spike           1624 AGGAAGCAGCTGAGCCCCCTGGAGGGCGGCGGCTGGCTGGTGGCCAGCGG   1673
+                                 ..|||||||.||.||..|||||..|.|....|||.|||
+Spike           1468 ------------TTCCCCCTGCAGAGCTACGGCTTCCAGCCCACCAACGG   1505
+
+Spike           1674 CAGCACCGTGG----CCATGACCGAGCA----GCTGCAGATGGGCTTCG-   1714
+                           |||||    ||| |.||.| ||    |.||..|.||.|||||| 
+Spike           1506 ------CGTGGGCTACCA-GCCCTA-CAGGGTGGTGGTGCTGAGCTTCGA   1547
+
+Spike           1715 GCATCACCGTGCAGTACGGCACCGACACCAACAGCGTGT---GCCCCAAG   1761
+                     ||       |||.|.|||.|.|||.|||      |||||   ||||||||
+Spike           1548 GC-------TGCTGCACGCCCCCGCCAC------CGTGTGCGGCCCCAAG   1584
+
+Spike           1762 CTGGAGTTCGCCAACGACACCAAGATCGCCAGCCAGCT---GGGCAACTG   1808
+                                          ||||.|.|||.||.|.|   |..|||.||
+Spike           1585 ---------------------AAGAGCACCAACCTGGTGAAGAACAAGTG   1613
+
+Spike           1809 CGTGGAGTACAGCCTGTACGGCGTGAGCGGCAGGGGCGTGTTCCAGAACT   1858
+                     ||||.|.|.||.|.|..|||||.|||.|||||..||||||        ||
+Spike           1614 CGTGAACTTCAACTTCAACGGCCTGACCGGCACCGGCGTG--------CT   1655
+
+Spike           1859 GCACCGCCGTGGGCGTGAG-GCAGC-AGAGGTTCGTGTACGACGCCTACC   1906
+                     | |||           ||| |||.| |||.||||.||      .|||.||
+Spike           1656 G-ACC-----------GAGAGCAACAAGAAGTTCCTG------CCCTTCC   1687
+
+Spike           1907 AGAACCTGGTGGGCTACTACAGCGACGACGGCAACTACTACTGCC-TGAG   1955
+                     ||   |.|.|.|||....|||.||.||||..||.|.||    ||| ||||
+Spike           1688 AG---CAGTTCGGCAGGGACATCGCCGACACCACCGAC----GCCGTGAG   1730
+
+Spike           1956 GGCCTGCGTGAGCGTGCCCGTGAGCGTGATCTACGACAAGGAGA-CCAAG   2004
+                     ||.|            |||..||.|.|            ||||| ||..|
+Spike           1731 GGAC------------CCCCAGACCCT------------GGAGATCCTGG   1756
+
+Spike           2005 AC-CCACGCCACCCTG----TTCGGCAGCGTG-GCCTG--------CGAG   2040
+                     || .||   |.|||||    ||||||.||||| ||.||        || |
+Spike           1757 ACATCA---CCCCCTGCAGCTTCGGCGGCGTGAGCGTGATCACCCCCG-G   1802
+
+Spike           2041 CA-CATCAGCAGC-ACCATGAGCCAGTAC---AGCAGGA--------GCA   2077
+                     || ||.||.|||| ||||.|.|.|.||.|   |.|||||        |||
+Spike           1803 CACCAACACCAGCAACCAGGTGGCCGTGCTGTACCAGGACGTGAACTGCA   1852
+
+Spike           2078 CC-AGGAG--------CAT------------GCTGA---------AGAGG   2097
+                     || |||.|        |||            |||||         .||||
+Spike           1853 CCGAGGTGCCCGTGGCCATCCACGCCGACCAGCTGACCCCCACCTGGAGG   1902
+
+Spike           2098 AGGGACAGCACCTACGGCCCCCTG---CAGACC----CCCGTGGGCTGCG   2140
+                     ..|.||||||||..|.||..|.||   ||||||    ||    ||||||.
+Spike           1903 GTGTACAGCACCGGCAGCAACGTGTTCCAGACCAGGGCC----GGCTGCC   1948
+
+Spike           2141 TGCTGGGC------CTGGTGAACAGCAGCCTGTTCGTGGAGGACTGCAAG   2184
+                     ||.|.|||      |..|||||||.||||         .|.||.|||.|.
+Spike           1949 TGATCGGCGCCGAGCACGTGAACAACAGC---------TACGAGTGCGAC   1989
+
+Spike           2185 CTGCCCCTGGGC-CAGAGCCTGTGCGCC--CTGCCCGACACCCCCAGCAC   2231
+                     .|.|||.|.||| |.| ||.|.||||||  ||.||.||    ||||| ||
+Spike           1990 ATCCCCATCGGCGCCG-GCATCTGCGCCAGCTACCAGA----CCCAG-AC   2033
+
+Spike           2232 CCTGACCCCCAGGAGCGTGAGGAGCGTGCCCGGCGAGATGAGGCTGGCCA   2281
+                     |...|.|||||||||.|..|||||||||.||.||.|||         .||
+Spike           2034 CAACAGCCCCAGGAGGGCCAGGAGCGTGGCCAGCCAGA---------GCA   2074
+
+Spike           2282 GCATCGCCTTCAACCACCCCAT---CCAGGTGGACCAGCTGAACAGCAG-   2327
+                     .||||||||      ||.||||   ||.||..|.|.|   ||||||| | 
+Spike           2075 TCATCGCCT------ACACCATGAGCCTGGGCGCCGA---GAACAGC-GT   2114
+
+Spike           2328 ---CTACTTCAA----------GCTGAGCATCCCCACCAACTTCAGCTTC   2364
+                        ||||..|||          ||    |||||||||||||||||.|.||
+Spike           2115 GGCCTACAGCAACAACAGCATCGC----CATCCCCACCAACTTCACCATC   2160
+
+Spike           2365 GGCGTGACCCAGGAGTACATCCAGACC---ACCAT--CCAGAAGGTGACC   2409
+                     .||||||||...|||   ||||.|.||   |.|||  ||  |||...|.|
+Spike           2161 AGCGTGACCACCGAG---ATCCTGCCCGTGAGCATGACC--AAGACCAGC   2205
+
+Spike           2410 GTGGACTGCAAGCA-GTACGTGTGCAACGGCTTCCAGA--------AGTG   2450
+                     ||||||||| |.|| ||||.|.||   ||||     ||        ||||
+Spike           2206 GTGGACTGC-ACCATGTACATCTG---CGGC-----GACAGCACCGAGTG   2246
+
+Spike           2451 CGAGC-AGCTGCTGAGGGAGTACGGCCAG-TTCTGCAGCAAGATCAACCA   2498
+                     | ||| |.||||||..|.||||||| ||| |||||||.|.||.|.|||..
+Spike           2247 C-AGCAACCTGCTGCTGCAGTACGG-CAGCTTCTGCACCCAGCTGAACAG   2294
+
+Spike           2499 GGCCCTGCACGGCGCCAACCTGAGGCAGGACGA-------CAGCGTGAGG   2541
+                     |||||||..||||..|..|.||..|||||||.|       |||   ||||
+Spike           2295 GGCCCTGACCGGCATCGCCGTGGAGCAGGACAAGAACACCCAG---GAGG   2341
+
+Spike           2542 AACCTGTTCG-CCAGCGTGAAGAGCAG-----CCAGAGCAGCCCCATCAT   2585
+                         |||||| |||| ||||  |||||     |.|||.|..|||||||| 
+Spike           2342 ----TGTTCGCCCAG-GTGA--AGCAGATCTACAAGACCCCCCCCATCA-   2383
+
+Spike           2586 CCCCGG-CTTCGGCGG---CGACTTCAACCTGACCCTGCTGGAGCCCGTG   2631
+                        .|| |||||||||   |.||||||.||.||.|||||..||.|||   
+Spike           2384 ---AGGACTTCGGCGGCTTCAACTTCAGCCAGATCCTGCCCGACCCC---   2427
+
+Spike           2632 AGCATCAGCACCGGCAGCAGGAGCGCCAGGAGCGCCATCGAGGACCTGCT   2681
+                     ||||  |||    .|||||.|      ||||||..|||||||||||||||
+Spike           2428 AGCA--AGC----CCAGCAAG------AGGAGCTTCATCGAGGACCTGCT   2465
+
+Spike           2682 GTTCGACAAGGTGACCATCGCCGACCCCGGCTACAT---GCAGGGCTACG   2728
+                     ||||.|||||||||||.|.||||||.||||||.|||   ||||   ||||
+Spike           2466 GTTCAACAAGGTGACCCTGGCCGACGCCGGCTTCATCAAGCAG---TACG   2512
+
+Spike           2729 ACGACTGCATGCAGCAGGGCCCCGCCAGCGCCAGGGACCTGATCTGCGCC   2778
+                     .|||||||      |.||||..|..|..||||||||||||||||||||||
+Spike           2513 GCGACTGC------CTGGGCGACATCGCCGCCAGGGACCTGATCTGCGCC   2556
+
+Spike           2779 CAGTACGT-----GGCCGGCTACAAGGTGCTGCCCCCCCTGATG---GAC   2820
+                     ||| |.||     ||||.|    |..|||||||||||||||.||   |||
+Spike           2557 CAG-AAGTTCAACGGCCTG----ACCGTGCTGCCCCCCCTGCTGACCGAC   2601
+
+Spike           2821 GTGAACATGGAGGCCGCC---TACACCAGCAGCCTGCTG---GGCAGCAT   2864
+                     |.||..||      ||||   |||||||||..|||||||   ||||.|||
+Spike           2602 GAGATGAT------CGCCCAGTACACCAGCGCCCTGCTGGCCGGCACCAT   2645
+
+Spike           2865 CGCCGGCGTGGGCTGGACCGCCGGCCTGAGCAGCTTCGCCGCC------A   2908
+                     |.||.||   |||||||||..||||    ||  |..|||||||      |
+Spike           2646 CACCAGC---GGCTGGACCTTCGGC----GC--CGGCGCCGCCCTGCAGA   2686
+
+Spike           2909 TCCCCTTCGCC---CAGA--GCATCTTCTACAGGCTGAACGGCGTGGGCA   2953
+                     |||||||||||   ||||  ||     |||||||.|.||||||.|.|||.
+Spike           2687 TCCCCTTCGCCATGCAGATGGC-----CTACAGGTTCAACGGCATCGGCG   2731
+
+Spike           2954 TCACCCAGCAGGTGCTGAGCGAGAACCAGAAGCTGATCGCCAACAAGTTC   3003
+                     |.||||||.|.||||||..|||||||||||||||||||||||||.|||||
+Spike           2732 TGACCCAGAACGTGCTGTACGAGAACCAGAAGCTGATCGCCAACCAGTTC   2781
+
+Spike           3004 AACCAG-GCCCTGGGCGCCATGCAGACCGGCTT---CACCACCACCAACG   3049
+                     || ||| |||.|.|||...||.|||..|.||.|   ||.||||.|||.||
+Spike           2782 AA-CAGCGCCATCGGCAAGATCCAGGACAGCCTGAGCAGCACCGCCAGCG   2830
+
+Spike           3050 ----AGGCCTTCCAGAAGGTGCAGGACGCCGTGAACAACAACGCCCAGGC   3095
+                         .|||       |||.|||||||||..||||||.|.|||||||||||
+Spike           2831 CCCTGGGC-------AAGCTGCAGGACGTGGTGAACCAGAACGCCCAGGC   2873
+
+Spike           3096 CCTGAGCAAGCTGG-CCAGCGAGCTGAGCAACACCTTCGGCGCCATCAGC   3144
+                     |||||.||..|||| ..||| |||||||||.||.||||||||||||||| 
+Spike           2874 CCTGAACACCCTGGTGAAGC-AGCTGAGCAGCAACTTCGGCGCCATCAG-   2921
+
+Spike           3145 GCCAGCAT-CGG--CGACATCATCCAG-AGGCTGGACGTGCTGGAGCAGG   3190
+                       ||||.| |.|  |||||||.| .|| |||||||||..|.|||||...|
+Spike           2922 --CAGCGTGCTGAACGACATCCT-GAGCAGGCTGGACAAGGTGGAGGCCG   2968
+
+Spike           3191 ACGCCCAGATCGACAGGCTGATCAACGGCAGGCTGACCACCCTGAACGCC   3240
+                     |.|..|||||||||||||||||||.||||||||||...|.||||.|..||
+Spike           2969 AGGTGCAGATCGACAGGCTGATCACCGGCAGGCTGCAGAGCCTGCAGACC   3018
+
+Spike           3241 TTCGTGGCCCAGCAGCTGGTGAGGAG----CGAGAGCGCCGCCCTGAGCG   3286
+                     |.||||.|||||||||||.|.||| |    |||||.|...|||   ||||
+Spike           3019 TACGTGACCCAGCAGCTGATCAGG-GCCGCCGAGATCAGGGCC---AGCG   3064
+
+Spike           3287 CCCAGCTGGCCAAGGACAAGGTGAACGAGTGCGTGAAGGCCCAGAGCAAG   3336
+                     ||.|.||||||.....||||.|||.||||||||||..||.||||||||||
+Spike           3065 CCAACCTGGCCGCCACCAAGATGAGCGAGTGCGTGCTGGGCCAGAGCAAG   3114
+
+Spike           3337 AGGAGCGG-CTTCTGCGGCCAGGGCACCCACATCGTGAGCTTCGTGGTGA   3385
+                     ||| |.|| ||||||||||.|||||..||||.|..||||||||.....||
+Spike           3115 AGG-GTGGACTTCTGCGGCAAGGGCTACCACCTGATGAGCTTCCCCCAGA   3163
+
+Spike           3386 ACGCCCCCAACGGCCTGTACTTCATGCACGTGGGCTAC-TAC---CCCAG   3431
+                     .|||||||.|||||.||...|||.||||||||..|||| |.|   |||||
+Spike           3164 GCGCCCCCCACGGCGTGGTGTTCCTGCACGTGACCTACGTGCCCGCCCAG   3213
+
+Spike           3432 CA----------ACCACATCGAGGTGGTGAGCGCCTACGGCCTGTGCGAC   3471
+                     .|          |||||              ||||..||.|.|.|||.||
+Spike           3214 GAGAAGAACTTCACCAC--------------CGCCCCCGCCATCTGCCAC   3249
+
+Spike           3472 GCCGCCAA--CCCCACCAACTGCATCGCCCCCGTGAACGGCTACTTCATC   3519
+                     |.||.|||  |||     |||      .||||..|.|.|||...|||.| 
+Spike           3250 GACGGCAAGGCCC-----ACT------TCCCCAGGGAGGGCGTGTTCGT-   3287
+
+Spike           3520 AAGACCAACAACAC---CAGGATCGTGGACGAGTGGAGCTACACCGGCAG   3566
+                       ||.||||..|||   |.||.|||||               |||...||
+Spike           3288 --GAGCAACGGCACCCACTGGTTCGTG---------------ACCCAGAG   3320
+
+Spike           3567 CAGCTTCTACGCCCCCGAGCCCATCACCAGCCTGAACACCAAGTACGTGG   3616
+                     .|.||||||||..|||.||..||||||||.|...||||||   |.||||.
+Spike           3321 GAACTTCTACGAGCCCCAGATCATCACCACCGACAACACC---TTCGTGA   3367
+
+Spike           3617 CCCCCCA---------GGTGACCTACCAGAACATCAGCACCAACCTGCCC   3657
+                     .|..|.|         |||||.|..|   |.|.|.|.||.||.|.||..|
+Spike           3368 GCGGCAACTGCGACGTGGTGATCGGC---ATCGTGAACAACACCGTGTAC   3414
+
+Spike           3658 CCCCCCCTGCTGGGCAACAGCACCG-GCATCGA---CTTCCAGGACGAGC   3703
+                     ..|||||||        |||| ||| || |.||   ||||.||||.||||
+Spike           3415 GACCCCCTG--------CAGC-CCGAGC-TGGACAGCTTCAAGGAGGAGC   3454
+
+Spike           3704 TGGACGAGTTCTTCAAGAACGTGAGCACCAGCATCCCCA-----ACTTCG   3748
+                     |||||.|||.||||||||||   ..|||||||  |||.|     ||.|.|
+Spike           3455 TGGACAAGTACTTCAAGAAC---CACACCAGC--CCCGACGTGGACCTGG   3499
+
+Spike           3749 GCAGCCTGAC-CCAG----ATCAACACCACCCTGCTGGA---CCTGACCT   3790
+                     ||     ||| .|||    ||||||.|||.|.||.||.|   ||.||   
+Spike           3500 GC-----GACATCAGCGGCATCAACGCCAGCGTGGTGAACATCCAGA---   3541
+
+Spike           3791 ACGAGATGCTGAGCCTGCAGCAGGTGGTGAAGGCCCTGAACGAGAGCTAC   3840
+                     |.|||||....||.|||.|..||||||..|||..|||||||||||||...
+Spike           3542 AGGAGATCGACAGGCTGAACGAGGTGGCCAAGAACCTGAACGAGAGCCTG   3591
+
+Spike           3841 ATCGACCTGAAGGAGCTGGGCAACTAC-ACCTACTACAACAAGTGGCCCT   3889
+                     |||||||||.|||||||||||||.||| |.| |.||||.|||||||||||
+Spike           3592 ATCGACCTGCAGGAGCTGGGCAAGTACGAGC-AGTACATCAAGTGGCCCT   3640
+
+Spike           3890 GGTACATCTGGCTGGGCTTCATCGCCGGCCTGGTGGCCCTGGCCCTG-TG   3938
+                     ||||||||||||||||||||||||||||||||.|.|||.|   |.|| ||
+Spike           3641 GGTACATCTGGCTGGGCTTCATCGCCGGCCTGATCGCCAT---CGTGATG   3687
+
+Spike           3939 CGTGTTCTTCATCCTGTGCTGC---ACCGGCTGCGGCACCAACTGC---A   3982
+                      |||..|.||||.|||||||||   |||.|||||.|   ||.||||   |
+Spike           3688 -GTGACCATCATGCTGTGCTGCATGACCAGCTGCTG---CAGCTGCCTGA   3733
+
+Spike           3983 TGGGCAAGCTGAAG-TGCAACAGGTGCTGCGACAGGTACGAGGAGTACGA   4031
+                     .|||| .||||.|| |||..|||.|||||   ||.||.|||.|||.||||
+Spike           3734 AGGGC-TGCTGCAGCTGCGGCAGCTGCTG---CAAGTTCGACGAGGACGA   3779
+
+Spike           4032 CCTGGAGCCC---CACAAG---GTGCACGTGCAC   4059
+                     |...||||||   |..|||   |||.|..|||||
+Spike           3780 CAGCGAGCCCGTGCTGAAGGGCGTGAAGCTGCAC   3813
+
+
+#---------------------------------------
+#---------------------------------------

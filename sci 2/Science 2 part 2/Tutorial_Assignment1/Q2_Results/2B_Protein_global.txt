@@ -1,0 +1,157 @@
+########################################
+# Program: needle
+# Rundate: Sun 11 Apr 2021 17:10:46
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20210411-171036-0094-78386470-p2m.aupfile
+#    -bsequence emboss_needle-I20210411-171036-0094-78386470-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MERS-CoV
+# 2: SARS-CoV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1440
+# Identity:     434/1440 (30.1%)
+# Similarity:   659/1440 (45.8%)
+# Gaps:         254/1440 (17.6%)
+# Score: 1559.5
+# 
+#
+#=======================================
+
+MERS-CoV           1 MIHSVFLLMFLLTPTESYVDVGPDSVKSACIEVDIQQTFFDKTWPRPIDV     50
+                         :|:.:.||           ..|.|.|:.:..:...     |.....
+SARS-CoV2          1 ----MFVFLVLL-----------PLVSSQCVNLTTRTQL-----PPAYTN     30
+
+MERS-CoV          51 SKADGIIYPQGRTYSNITITYQGLF-PYQGDHGDMYVYSAGHATGTTPQK     99
+                     |...|:.||.....|::..:.|.|| |:   ..::..:.|.|.:||...|
+SARS-CoV2         31 SFTRGVYYPDKVFRSSVLHSTQDLFLPF---FSNVTWFHAIHVSGTNGTK     77
+
+MERS-CoV         100 LFVANYSQDVKQFANGFVVRIGAAANSTGTVIISPSTSATIRKIYPAFML    149
+                     .|    ...|..|             :.|....|...|..||        
+SARS-CoV2         78 RF----DNPVLPF-------------NDGVYFASTEKSNIIR--------    102
+
+MERS-CoV         150 GSSVGNFSDGKMGRFFNHTLVLLPDGCGTLLRA--FYCILEPRSGNHCPA    197
+                     |...|...|.|     ..:|:::.:....:::.  |....:|..|.:   
+SARS-CoV2        103 GWIFGTTLDSK-----TQSLLIVNNATNVVIKVCEFQFCNDPFLGVY---    144
+
+MERS-CoV         198 GNSYTSFATYHTPATDCSDGNYNRNASLNSFKEYFNLRNCTFMYTYNITE    247
+                              ||         ..|::...:.|:.|.:..||||.|   :::
+SARS-CoV2        145 ---------YH---------KNNKSWMESEFRVYSSANNCTFEY---VSQ    173
+
+MERS-CoV         248 DEILEWFGITQTAQGVHLFSSRYVDLY-----------------------    274
+                     ..:::..|.....:.:..|..:.:|.|                       
+SARS-CoV2        174 PFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSAL    223
+
+MERS-CoV         275 --------GGNMFQFATLPVYDTIKYYSIIPHSIRSIQSDRKAW----AA    312
+                             |.|:.:|.||         ..:..|..:.......|    ||
+SARS-CoV2        224 EPLVDLPIGINITRFQTL---------LALHRSYLTPGDSSSGWTAGAAA    264
+
+MERS-CoV         313 FYVYKLQPLTFLLDFSVDGYIRRAIDCGFNDLSQLHCSYESFDVESGVYS    362
+                     :||..|||.||||.::.:|.|..|:||..:.||:..|:.:||.||.|:|.
+SARS-CoV2        265 YYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQ    314
+
+MERS-CoV         363 VSSFEAKPSGSVVEQAEGVE-CDFSPLLSGTP-PQVYNFKRLVFTNCNYN    410
+                     .|:|..:|:.|:|....... |.|..:.:.|. ..||.:.|...:||..:
+SARS-CoV2        315 TSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVAD    364
+
+MERS-CoV         411 LTKLLSLFSVNDFTCSQISPAAIASNCYSSLILDYFSYPLSMKSDLSVSS    460
+                     .:.|.:..|.:.|.|..:||..:...|::::..|.|.........::...
+SARS-CoV2        365 YSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQ    414
+
+MERS-CoV         461 AGPISQFNYKQSFSNPTCLILATVPHNLTTITKPLKYSYINKCSRLLS--    508
+                     .|.|:.:|||.......| ::|...:||.:.... .|:|:.:..|..:  
+SARS-CoV2        415 TGKIADYNYKLPDDFTGC-VIAWNSNNLDSKVGG-NYNYLYRLFRKSNLK    462
+
+MERS-CoV         509 ----DDRTEVPQLVNANQYSPCVSIVPSTVWEDGDYYRKQLSPLEGGGWL    554
+                         |..||:.|..:    :||..:      |..:.|    .||:..|:.
+SARS-CoV2        463 PFERDISTEIYQAGS----TPCNGV------EGFNCY----FPLQSYGFQ    498
+
+MERS-CoV         555 VASGSTVAMTEQLQMGFGITVQYGTDTNSVCPKLEFANDTKIASQLGNCV    604
+                     ..:|........:.:.|.:.....|    ||...:..|..|     ..||
+SARS-CoV2        499 PTNGVGYQPYRVVVLSFELLHAPAT----VCGPKKSTNLVK-----NKCV    539
+
+MERS-CoV         605 EYSLYGVSGRGVFQNCTAVGVRQQRFVYDAY---------QNLVGYYSDD    645
+                     .::..|::|.||........:..|:|..|..         |.|       
+SARS-CoV2        540 NFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTL-------    582
+
+MERS-CoV         646 GNYYCLRACVSVPVSVIYDKETKTH--ATLFGSVAC---------EHISS    684
+                      ....:..|....||||......::  |.|:..|.|         :.::.
+SARS-CoV2        583 -EILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTP    631
+
+MERS-CoV         685 TMSQYSRSTRSMLKRRDSTYGPLQTPVGCVLGL--VNSSLFVEDCKLPLG    732
+                     |...||..:           ...||..||::|.  ||:|.   :|.:|:|
+SARS-CoV2        632 TWRVYSTGS-----------NVFQTRAGCLIGAEHVNNSY---ECDIPIG    667
+
+MERS-CoV         733 QSLCALPDTPSTLTPRSVRSVPGEMRLA---------SIAFNHPIQVDQL    773
+                     ..:||...| .|.:||..|||..:..:|         |:|:::       
+SARS-CoV2        668 AGICASYQT-QTNSPRRARSVASQSIIAYTMSLGAENSVAYSN-------    709
+
+MERS-CoV         774 NSSYFKLSIPTNFSFGVTQEYIQTTIQKVTVDCKQYVCNGFQKCEQLLRE    823
+                     ||    ::|||||:..||.|.:..::.|.:|||..|:|....:|..||.:
+SARS-CoV2        710 NS----IAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQ    755
+
+MERS-CoV         824 YGQFCSKINQALHGANLRQDDSVRNLFASVKSSQSSPIIPGFGGDFNLTL    873
+                     ||.||:::|:||.|..:.||.:.:.:||.||....:|.|..||| ||.:.
+SARS-CoV2        756 YGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGG-FNFSQ    804
+
+MERS-CoV         874 LEPVSISTGSRSARSAIEDLLFDKVTIADPGYMQGYDDCMQQGPASARDL    923
+                     :.|   .....|.||.||||||:|||:||.|:::.|.||:  |..:||||
+SARS-CoV2        805 ILP---DPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCL--GDIAARDL    849
+
+MERS-CoV         924 ICAQYVAGYKVLPPLMDVNMEAAYTSSLLGSIAGVGWTAGLSSFAAIPFA    973
+                     ||||...|..|||||:...|.|.|||:||......|||.|..:...||||
+SARS-CoV2        850 ICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFA    899
+
+MERS-CoV         974 QSIFYRLNGVGITQQVLSENQKLIANKFNQALGAMQTGFTTTNEAFRKVQ   1023
+                     ..:.||.||:|:||.||.||||||||:||.|:|.:|...::|..|..|:|
+SARS-CoV2        900 MQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQ    949
+
+MERS-CoV        1024 DAVNNNAQALSKLASELSNTFGAISASIGDIIQRLDVLEQDAQIDRLING   1073
+                     |.||.|||||:.|..:||:.|||||:.:.||:.|||.:|.:.||||||.|
+SARS-CoV2        950 DVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITG    999
+
+MERS-CoV        1074 RLTTLNAFVAQQLVRSESAALSAQLAKDKVNECVKAQSKRSGFCGQGTHI   1123
+                     ||.:|..:|.|||:|:.....||.||..|::|||..||||..|||:|.|:
+SARS-CoV2       1000 RLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHL   1049
+
+MERS-CoV        1124 VSFVVNAPNGLYFMHVGYYPSNHIEVVSAYGLCDAANPTNCIAPVNGYFI   1173
+                     :||..:||:|:.|:||.|.|:......:|..:|   :......|..|.|:
+SARS-CoV2       1050 MSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAIC---HDGKAHFPREGVFV   1096
+
+MERS-CoV        1174 KTNNTRIVDEWSYTGSSFYAPEPITSLNTKYVAPQ------VTYQNISTN   1217
+                      :|.|    .|..|..:||.|:.||:.|| :|:..      :....:...
+SARS-CoV2       1097 -SNGT----HWFVTQRNFYEPQIITTDNT-FVSGNCDVVIGIVNNTVYDP   1140
+
+MERS-CoV        1218 LPPPLLGNSTGIDFQDELDEFFKNVSTSIPNFGSLTQINTTLLDLTYEML   1267
+                     |.|.|      ..|::|||::|||.::...:.|.::.||.:::::..|:.
+SARS-CoV2       1141 LQPEL------DSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEID   1184
+
+MERS-CoV        1268 SLQQVVKALNESYIDLKELGNYTYYNKWPWYIWLGFIAGLVALALCVFFI   1317
+                     .|.:|.|.||||.|||:|||.|..|.||||||||||||||:|:.:....:
+SARS-CoV2       1185 RLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIML   1234
+
+MERS-CoV        1318 LCCTGCGTNCMGKLKCNRCCDRYEEYDLEP--HKVHVH--   1353
+                     .|.|.|.:...|...|..|| :::|.|.||  ..|.:|  
+SARS-CoV2       1235 CCMTSCCSCLKGCCSCGSCC-KFDEDDSEPVLKGVKLHYT   1273
+
+
+#---------------------------------------
+#---------------------------------------

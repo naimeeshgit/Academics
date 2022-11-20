@@ -1,0 +1,7 @@
+Fragment No.: 1	1-997	of length 997bp
+Fragment No.: 2	998-1087	of length 90bp
+Fragment No.: 3	1088-1167	of length 80bp
+Fragment No.: 4	1168-1320	of length 153bp
+Fragment No.: 5	1321-1801	of length 481bp
+Fragment No.: 6	1802-1981	of length 180bp
+Fragment No.: 7	1982-2682	of length 701bp

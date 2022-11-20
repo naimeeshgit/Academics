@@ -1,0 +1,3403 @@
+
+DNA parsimony algorithm, version 3.697
+
+
+Data set # 1:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4453.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.075808
+     2           3       0.099392
+     3           4       0.055807
+     4      RaTG13       0.036521
+     4      SARS-COV2    0.025790
+     3      P-COV        0.071333
+     2      SARS-COV     0.112585
+     1      batcov       0.154353
+     1      MERS-COV     0.445577
+
+
+Data set # 2:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4525.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088862
+     2           3       0.090761
+     3           4       0.065366
+     4      RaTG13       0.031837
+     4      SARS-COV2    0.030389
+     3      P-COV        0.073757
+     2      SARS-COV     0.118077
+     1      batcov       0.152790
+     1      MERS-COV     0.442742
+
+
+Data set # 3:
+
+
+One most parsimonious tree found:
+
+
+                 +--RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4669.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091275
+     2           3       0.090001
+     3           4       0.072127
+     4      RaTG13       0.039416
+     4      SARS-COV2    0.032818
+     3      P-COV        0.078199
+     2      SARS-COV     0.124512
+     1      batcov       0.162562
+     1      MERS-COV     0.438505
+
+
+Data set # 4:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +---P-COV     
+  |     |  
+  |     +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4533.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.092488
+     2           3       0.090959
+     3           4       0.068869
+     4      RaTG13       0.034173
+     4      SARS-COV2    0.031043
+     3      P-COV        0.071308
+     2      SARS-COV     0.112293
+     1      batcov       0.149955
+     1      MERS-COV     0.445429
+
+
+Data set # 5:
+
+
+One most parsimonious tree found:
+
+
+                 +RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4514.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088623
+     2           3       0.094157
+     3           4       0.060694
+     4      RaTG13       0.029924
+     4      SARS-COV2    0.036486
+     3      P-COV        0.074928
+     2      SARS-COV     0.115642
+     1      batcov       0.159478
+     1      MERS-COV     0.431988
+
+
+Data set # 6:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +--SARS-COV2 
+        |    |  
+  +-----2    +----P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4631.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.094737
+     2           3       0.094011
+     3           4       0.068457
+     4      RaTG13       0.032017
+     4      SARS-COV2    0.036572
+     3      P-COV        0.076924
+     2      SARS-COV     0.114509
+     1      batcov       0.158466
+     1      MERS-COV     0.444529
+
+
+Data set # 7:
+
+
+One most parsimonious tree found:
+
+
+                 +--RaTG13    
+              +--4  
+       +------3  +-SARS-COV2 
+       |      |  
+  +----2      +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4670.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.090781
+     2           3       0.101398
+     3           4       0.062500
+     4      RaTG13       0.037119
+     4      SARS-COV2    0.035604
+     3      P-COV        0.071307
+     2      SARS-COV     0.117963
+     1      batcov       0.157705
+     1      MERS-COV     0.455281
+
+
+Data set # 8:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4495.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.083816
+     2           3       0.096198
+     3           4       0.065510
+     4      RaTG13       0.035670
+     4      SARS-COV2    0.030735
+     3      P-COV        0.073811
+     2      SARS-COV     0.107287
+     1      batcov       0.146630
+     1      MERS-COV     0.447669
+
+
+Data set # 9:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4537.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086379
+     2           3       0.094901
+     3           4       0.063362
+     4      RaTG13       0.031318
+     4      SARS-COV2    0.033575
+     3      P-COV        0.065663
+     2      SARS-COV     0.117503
+     1      batcov       0.156544
+     1      MERS-COV     0.448239
+
+
+Data set # 10:
+
+
+One most parsimonious tree found:
+
+
+                  +-RaTG13    
+             +----4  
+       +-----3    +SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4698.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089375
+     2           3       0.097411
+     3           4       0.071841
+     4      RaTG13       0.038952
+     4      SARS-COV2    0.030419
+     3      P-COV        0.081345
+     2      SARS-COV     0.116850
+     1      batcov       0.165666
+     1      MERS-COV     0.444570
+
+
+Data set # 11:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4525.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086391
+     2           3       0.093024
+     3           4       0.063651
+     4      RaTG13       0.032234
+     4      SARS-COV2    0.035514
+     3      P-COV        0.077883
+     2      SARS-COV     0.110357
+     1      batcov       0.148060
+     1      MERS-COV     0.447466
+
+
+Data set # 12:
+
+
+One most parsimonious tree found:
+
+
+                 +--RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4602.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091654
+     2           3       0.092973
+     3           4       0.068639
+     4      RaTG13       0.039169
+     4      SARS-COV2    0.033819
+     3      P-COV        0.074823
+     2      SARS-COV     0.113071
+     1      batcov       0.154679
+     1      MERS-COV     0.444380
+
+
+Data set # 13:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4645.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.084738
+     2           3       0.096108
+     3           4       0.068834
+     4      RaTG13       0.036666
+     4      SARS-COV2    0.030846
+     3      P-COV        0.079326
+     2      SARS-COV     0.119532
+     1      batcov       0.160736
+     1      MERS-COV     0.446824
+
+
+Data set # 14:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4614.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.082584
+     2           3       0.095992
+     3           4       0.065780
+     4      RaTG13       0.034737
+     4      SARS-COV2    0.035851
+     3      P-COV        0.074129
+     2      SARS-COV     0.117137
+     1      batcov       0.154889
+     1      MERS-COV     0.455011
+
+
+Data set # 15:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4637.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087374
+     2           3       0.098402
+     3           4       0.064407
+     4      RaTG13       0.030523
+     4      SARS-COV2    0.033335
+     3      P-COV        0.077414
+     2      SARS-COV     0.117959
+     1      batcov       0.152358
+     1      MERS-COV     0.459901
+
+
+Data set # 16:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4581.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086454
+     2           3       0.093454
+     3           4       0.068875
+     4      RaTG13       0.036791
+     4      SARS-COV2    0.034123
+     3      P-COV        0.072669
+     2      SARS-COV     0.118178
+     1      batcov       0.153448
+     1      MERS-COV     0.444135
+
+
+Data set # 17:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4576.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.090105
+     2           3       0.094644
+     3           4       0.064048
+     4      RaTG13       0.036325
+     4      SARS-COV2    0.029505
+     3      P-COV        0.077966
+     2      SARS-COV     0.116667
+     1      batcov       0.158095
+     1      MERS-COV     0.439565
+
+
+Data set # 18:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4608.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.080146
+     2           3       0.095898
+     3           4       0.069519
+     4      RaTG13       0.037106
+     4      SARS-COV2    0.034785
+     3      P-COV        0.068410
+     2      SARS-COV     0.116576
+     1      batcov       0.159786
+     1      MERS-COV     0.452433
+
+
+Data set # 19:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4617.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088672
+     2           3       0.095211
+     3           4       0.065572
+     4      RaTG13       0.038443
+     4      SARS-COV2    0.029751
+     3      P-COV        0.077206
+     2      SARS-COV     0.112959
+     1      batcov       0.163861
+     1      MERS-COV     0.445162
+
+
+Data set # 20:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4565.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.090055
+     2           3       0.092712
+     3           4       0.064049
+     4      RaTG13       0.037917
+     4      SARS-COV2    0.029910
+     3      P-COV        0.072411
+     2      SARS-COV     0.113329
+     1      batcov       0.162905
+     1      MERS-COV     0.440969
+
+
+Data set # 21:
+
+
+One most parsimonious tree found:
+
+
+                 +RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4579.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089377
+     2           3       0.090241
+     3           4       0.063807
+     4      RaTG13       0.030456
+     4      SARS-COV2    0.034760
+     3      P-COV        0.074706
+     2      SARS-COV     0.122954
+     1      batcov       0.153796
+     1      MERS-COV     0.447547
+
+
+Data set # 22:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4621.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091181
+     2           3       0.096862
+     3           4       0.056443
+     4      RaTG13       0.034072
+     4      SARS-COV2    0.037606
+     3      P-COV        0.070027
+     2      SARS-COV     0.118720
+     1      batcov       0.149087
+     1      MERS-COV     0.463806
+
+
+Data set # 23:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4553.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.090670
+     2           3       0.094544
+     3           4       0.062154
+     4      RaTG13       0.037379
+     4      SARS-COV2    0.033139
+     3      P-COV        0.068509
+     2      SARS-COV     0.115571
+     1      batcov       0.152954
+     1      MERS-COV     0.446435
+
+
+Data set # 24:
+
+
+One most parsimonious tree found:
+
+
+                +--RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4580.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088084
+     2           3       0.089676
+     3           4       0.063523
+     4      RaTG13       0.035612
+     4      SARS-COV2    0.032601
+     3      P-COV        0.073220
+     2      SARS-COV     0.116178
+     1      batcov       0.158487
+     1      MERS-COV     0.450505
+
+
+Data set # 25:
+
+
+One most parsimonious tree found:
+
+
+                +--RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4503.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089135
+     2           3       0.090119
+     3           4       0.059687
+     4      RaTG13       0.036810
+     4      SARS-COV2    0.032524
+     3      P-COV        0.073562
+     2      SARS-COV     0.114290
+     1      batcov       0.143656
+     1      MERS-COV     0.449477
+
+
+Data set # 26:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4576.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088688
+     2           3       0.091543
+     3           4       0.062068
+     4      RaTG13       0.035463
+     4      SARS-COV2    0.031699
+     3      P-COV        0.074532
+     2      SARS-COV     0.120351
+     1      batcov       0.163527
+     1      MERS-COV     0.439048
+
+
+Data set # 27:
+
+
+One most parsimonious tree found:
+
+
+           +-RaTG13    
+        +--4  
+  +-----3  +-SARS-COV2 
+  |     |  
+  |     +---P-COV     
+  |  
+  |   +-------SARS-COV  
+  1---2  
+  |   +----------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4600.000
+
+  between      and       length
+  -------      ---       ------
+     1           3       0.096511
+     3           4       0.054084
+     4      RaTG13       0.035429
+     4      SARS-COV2    0.031881
+     3      P-COV        0.076970
+     1           2       0.074006
+     2      SARS-COV     0.123793
+     2      batcov       0.169545
+     1      MERS-COV     0.450505
+
+
+Data set # 28:
+
+
+One most parsimonious tree found:
+
+
+                 +--RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +----P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4617.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.092786
+     2           3       0.097139
+     3           4       0.063816
+     4      RaTG13       0.041300
+     4      SARS-COV2    0.031817
+     3      P-COV        0.079187
+     2      SARS-COV     0.116816
+     1      batcov       0.154111
+     1      MERS-COV     0.439865
+
+
+Data set # 29:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4586.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.081709
+     2           3       0.096177
+     3           4       0.066495
+     4      RaTG13       0.032162
+     4      SARS-COV2    0.031051
+     3      P-COV        0.080261
+     2      SARS-COV     0.115401
+     1      batcov       0.149729
+     1      MERS-COV     0.456352
+
+
+Data set # 30:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4489.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.080009
+     2           3       0.102498
+     3           4       0.061023
+     4      RaTG13       0.034710
+     4      SARS-COV2    0.026972
+     3      P-COV        0.067508
+     2      SARS-COV     0.108085
+     1      batcov       0.156907
+     1      MERS-COV     0.448162
+
+
+Data set # 31:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4583.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086083
+     2           3       0.102873
+     3           4       0.062593
+     4      RaTG13       0.039003
+     4      SARS-COV2    0.035157
+     3      P-COV        0.072847
+     2      SARS-COV     0.112713
+     1      batcov       0.158974
+     1      MERS-COV     0.438368
+
+
+Data set # 32:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4506.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087635
+     2           3       0.097336
+     3           4       0.061578
+     4      RaTG13       0.037426
+     4      SARS-COV2    0.035629
+     3      P-COV        0.073358
+     2      SARS-COV     0.110999
+     1      batcov       0.153520
+     1      MERS-COV     0.432503
+
+
+Data set # 33:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4629.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.081486
+     2           3       0.095902
+     3           4       0.064430
+     4      RaTG13       0.038887
+     4      SARS-COV2    0.031089
+     3      P-COV        0.075667
+     2      SARS-COV     0.114684
+     1      batcov       0.154912
+     1      MERS-COV     0.462683
+
+
+Data set # 34:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4511.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087267
+     2           3       0.094928
+     3           4       0.062996
+     4      RaTG13       0.038107
+     4      SARS-COV2    0.032377
+     3      P-COV        0.070650
+     2      SARS-COV     0.117987
+     1      batcov       0.150290
+     1      MERS-COV     0.436593
+
+
+Data set # 35:
+
+
+One most parsimonious tree found:
+
+
+                +--RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4425.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.084962
+     2           3       0.093479
+     3           4       0.061539
+     4      RaTG13       0.035661
+     4      SARS-COV2    0.030221
+     3      P-COV        0.072316
+     2      SARS-COV     0.102569
+     1      batcov       0.147523
+     1      MERS-COV     0.442123
+
+
+Data set # 36:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4629.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089886
+     2           3       0.097667
+     3           4       0.062939
+     4      RaTG13       0.034482
+     4      SARS-COV2    0.033290
+     3      P-COV        0.072848
+     2      SARS-COV     0.118141
+     1      batcov       0.161220
+     1      MERS-COV     0.449267
+
+
+Data set # 37:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +---P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4573.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.092126
+     2           3       0.090771
+     3           4       0.065379
+     4      RaTG13       0.039906
+     4      SARS-COV2    0.034290
+     3      P-COV        0.074264
+     2      SARS-COV     0.119063
+     1      batcov       0.146115
+     1      MERS-COV     0.444280
+
+
+Data set # 38:
+
+
+One most parsimonious tree found:
+
+
+                  +-RaTG13    
+              +---4  
+        +-----3   +-SARS-COV2 
+        |     |  
+  +-----2     +---P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4673.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.095624
+     2           3       0.103951
+     3           4       0.063273
+     4      RaTG13       0.036371
+     4      SARS-COV2    0.035638
+     3      P-COV        0.074027
+     2      SARS-COV     0.119623
+     1      batcov       0.163762
+     1      MERS-COV     0.438113
+
+
+Data set # 39:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +----P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4623.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.092314
+     2           3       0.098473
+     3           4       0.064290
+     4      RaTG13       0.034059
+     4      SARS-COV2    0.031255
+     3      P-COV        0.076255
+     2      SARS-COV     0.117007
+     1      batcov       0.151609
+     1      MERS-COV     0.453026
+
+
+Data set # 40:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4614.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.081698
+     2           3       0.097685
+     3           4       0.068010
+     4      RaTG13       0.035633
+     4      SARS-COV2    0.030682
+     3      P-COV        0.075727
+     2      SARS-COV     0.128667
+     1      batcov       0.151162
+     1      MERS-COV     0.446845
+
+
+Data set # 41:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4544.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089917
+     2           3       0.093456
+     3           4       0.062673
+     4      RaTG13       0.034430
+     4      SARS-COV2    0.038006
+     3      P-COV        0.074893
+     2      SARS-COV     0.109814
+     1      batcov       0.147678
+     1      MERS-COV     0.448311
+
+
+Data set # 42:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4597.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088495
+     2           3       0.093416
+     3           4       0.065134
+     4      RaTG13       0.036438
+     4      SARS-COV2    0.031715
+     3      P-COV        0.075175
+     2      SARS-COV     0.117730
+     1      batcov       0.152010
+     1      MERS-COV     0.451885
+
+
+Data set # 43:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4605.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087077
+     2           3       0.094450
+     3           4       0.063670
+     4      RaTG13       0.036255
+     4      SARS-COV2    0.034692
+     3      P-COV        0.076130
+     2      SARS-COV     0.117022
+     1      batcov       0.152716
+     1      MERS-COV     0.451922
+
+
+Data set # 44:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4517.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087735
+     2           3       0.094830
+     3           4       0.063132
+     4      RaTG13       0.031332
+     4      SARS-COV2    0.031984
+     3      P-COV        0.072920
+     2      SARS-COV     0.115322
+     1      batcov       0.149454
+     1      MERS-COV     0.445937
+
+
+Data set # 45:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +--SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4650.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089676
+     2           3       0.101624
+     3           4       0.065524
+     4      RaTG13       0.031410
+     4      SARS-COV2    0.036284
+     3      P-COV        0.077943
+     2      SARS-COV     0.115780
+     1      batcov       0.155748
+     1      MERS-COV     0.450829
+
+
+Data set # 46:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4543.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087546
+     2           3       0.092538
+     3           4       0.059372
+     4      RaTG13       0.034756
+     4      SARS-COV2    0.033709
+     3      P-COV        0.070749
+     2      SARS-COV     0.112782
+     1      batcov       0.155256
+     1      MERS-COV     0.452227
+
+
+Data set # 47:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +--SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4755.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086103
+     2           3       0.101359
+     3           4       0.065452
+     4      RaTG13       0.036678
+     4      SARS-COV2    0.039520
+     3      P-COV        0.078502
+     2      SARS-COV     0.127151
+     1      batcov       0.166631
+     1      MERS-COV     0.448823
+
+
+Data set # 48:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4497.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.077866
+     2           3       0.097237
+     3           4       0.061036
+     4      RaTG13       0.035023
+     4      SARS-COV2    0.029461
+     3      P-COV        0.078457
+     2      SARS-COV     0.111741
+     1      batcov       0.162160
+     1      MERS-COV     0.434828
+
+
+Data set # 49:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4484.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.081919
+     2           3       0.095136
+     3           4       0.066985
+     4      RaTG13       0.031961
+     4      SARS-COV2    0.030702
+     3      P-COV        0.069929
+     2      SARS-COV     0.112213
+     1      batcov       0.161731
+     1      MERS-COV     0.434089
+
+
+Data set # 50:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +----P-COV     
+  |     |  
+  |     +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4657.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091870
+     2           3       0.098492
+     3           4       0.063822
+     4      RaTG13       0.036951
+     4      SARS-COV2    0.035771
+     3      P-COV        0.073841
+     2      SARS-COV     0.113957
+     1      batcov       0.156215
+     1      MERS-COV     0.455592
+
+
+Data set # 51:
+
+
+One most parsimonious tree found:
+
+
+                 +--RaTG13    
+              +--4  
+       +------3  +-SARS-COV2 
+       |      |  
+  +----2      +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4673.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091102
+     2           3       0.103076
+     3           4       0.061199
+     4      RaTG13       0.036795
+     4      SARS-COV2    0.033009
+     3      P-COV        0.074182
+     2      SARS-COV     0.117244
+     1      batcov       0.161314
+     1      MERS-COV     0.452462
+
+
+Data set # 52:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4549.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086021
+     2           3       0.101105
+     3           4       0.069185
+     4      RaTG13       0.031627
+     4      SARS-COV2    0.033783
+     3      P-COV        0.073726
+     2      SARS-COV     0.107109
+     1      batcov       0.150253
+     1      MERS-COV     0.447577
+
+
+Data set # 53:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+            +---4  
+       +----3   +-SARS-COV2 
+       |    |  
+  +----2    +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4496.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.078750
+     2           3       0.093324
+     3           4       0.062456
+     4      RaTG13       0.037688
+     4      SARS-COV2    0.036055
+     3      P-COV        0.078057
+     2      SARS-COV     0.113880
+     1      batcov       0.143536
+     1      MERS-COV     0.443820
+
+
+Data set # 54:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4518.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088945
+     2           3       0.088047
+     3           4       0.062172
+     4      RaTG13       0.035108
+     4      SARS-COV2    0.034966
+     3      P-COV        0.075495
+     2      SARS-COV     0.113157
+     1      batcov       0.153640
+     1      MERS-COV     0.441359
+
+
+Data set # 55:
+
+
+One most parsimonious tree found:
+
+
+                  +RaTG13    
+              +---4  
+        +-----3   +SARS-COV2 
+        |     |  
+  +-----2     +---P-COV     
+  |     |  
+  |     +-----SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4602.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.096315
+     2           3       0.095822
+     3           4       0.066822
+     4      RaTG13       0.029098
+     4      SARS-COV2    0.030425
+     3      P-COV        0.073256
+     2      SARS-COV     0.110651
+     1      batcov       0.164769
+     1      MERS-COV     0.446050
+
+
+Data set # 56:
+
+
+One most parsimonious tree found:
+
+
+                +--RaTG13    
+            +---4  
+       +----3   +--SARS-COV2 
+       |    |  
+  +----2    +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4590.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.082820
+     2           3       0.091379
+     3           4       0.067073
+     4      RaTG13       0.034109
+     4      SARS-COV2    0.035138
+     3      P-COV        0.079279
+     2      SARS-COV     0.120715
+     1      batcov       0.158368
+     1      MERS-COV     0.441425
+
+
+Data set # 57:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+            +---4  
+       +----3   +-SARS-COV2 
+       |    |  
+  +----2    +----P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4491.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.084118
+     2           3       0.087631
+     3           4       0.067500
+     4      RaTG13       0.030448
+     4      SARS-COV2    0.028320
+     3      P-COV        0.072490
+     2      SARS-COV     0.106685
+     1      batcov       0.149766
+     1      MERS-COV     0.459399
+
+
+Data set # 58:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4616.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088741
+     2           3       0.097987
+     3           4       0.071509
+     4      RaTG13       0.032905
+     4      SARS-COV2    0.033208
+     3      P-COV        0.075208
+     2      SARS-COV     0.115754
+     1      batcov       0.153172
+     1      MERS-COV     0.448110
+
+
+Data set # 59:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+              +--4  
+       +------3  +-SARS-COV2 
+       |      |  
+  +----2      +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4660.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089901
+     2           3       0.103118
+     3           4       0.059719
+     4      RaTG13       0.034336
+     4      SARS-COV2    0.030036
+     3      P-COV        0.074565
+     2      SARS-COV     0.117864
+     1      batcov       0.160819
+     1      MERS-COV     0.456881
+
+
+Data set # 60:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +---P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4589.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.092833
+     2           3       0.091098
+     3           4       0.070139
+     4      RaTG13       0.034550
+     4      SARS-COV2    0.034315
+     3      P-COV        0.071706
+     2      SARS-COV     0.121558
+     1      batcov       0.154522
+     1      MERS-COV     0.439341
+
+
+Data set # 61:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4626.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088671
+     2           3       0.096778
+     3           4       0.064274
+     4      RaTG13       0.034299
+     4      SARS-COV2    0.028300
+     3      P-COV        0.073210
+     2      SARS-COV     0.122917
+     1      batcov       0.157888
+     1      MERS-COV     0.452677
+
+
+Data set # 62:
+
+
+One most parsimonious tree found:
+
+
+                  +-RaTG13    
+             +----4  
+       +-----3    +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4608.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.090797
+     2           3       0.099675
+     3           4       0.069538
+     4      RaTG13       0.041425
+     4      SARS-COV2    0.033672
+     3      P-COV        0.074016
+     2      SARS-COV     0.112141
+     1      batcov       0.157570
+     1      MERS-COV     0.435825
+
+
+Data set # 63:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4647.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086958
+     2           3       0.096905
+     3           4       0.063007
+     4      RaTG13       0.038356
+     4      SARS-COV2    0.032431
+     3      P-COV        0.077804
+     2      SARS-COV     0.116560
+     1      batcov       0.151391
+     1      MERS-COV     0.460681
+
+
+Data set # 64:
+
+
+One most parsimonious tree found:
+
+
+                 +--RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4686.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.090643
+     2           3       0.093821
+     3           4       0.071593
+     4      RaTG13       0.039901
+     4      SARS-COV2    0.030866
+     3      P-COV        0.077839
+     2      SARS-COV     0.122654
+     1      batcov       0.155828
+     1      MERS-COV     0.450381
+
+
+Data set # 65:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4444.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.085364
+     2           3       0.094917
+     3           4       0.066740
+     4      RaTG13       0.034153
+     4      SARS-COV2    0.028186
+     3      P-COV        0.071048
+     2      SARS-COV     0.117307
+     1      batcov       0.142333
+     1      MERS-COV     0.434941
+
+
+Data set # 66:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+              +--4  
+        +-----3  +-SARS-COV2 
+        |     |  
+  +-----2     +---P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4560.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.093021
+     2           3       0.098974
+     3           4       0.060177
+     4      RaTG13       0.035529
+     4      SARS-COV2    0.034040
+     3      P-COV        0.071378
+     2      SARS-COV     0.121546
+     1      batcov       0.147625
+     1      MERS-COV     0.440758
+
+
+Data set # 67:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4591.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087695
+     2           3       0.094760
+     3           4       0.061015
+     4      RaTG13       0.038582
+     4      SARS-COV2    0.032409
+     3      P-COV        0.078566
+     2      SARS-COV     0.117285
+     1      batcov       0.150760
+     1      MERS-COV     0.449475
+
+
+Data set # 68:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4614.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.085913
+     2           3       0.093571
+     3           4       0.068467
+     4      RaTG13       0.037059
+     4      SARS-COV2    0.030572
+     3      P-COV        0.072737
+     2      SARS-COV     0.117113
+     1      batcov       0.155686
+     1      MERS-COV     0.454992
+
+
+Data set # 69:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4481.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088953
+     2           3       0.095712
+     3           4       0.059313
+     4      RaTG13       0.035303
+     4      SARS-COV2    0.029753
+     3      P-COV        0.067902
+     2      SARS-COV     0.103977
+     1      batcov       0.154521
+     1      MERS-COV     0.448504
+
+
+Data set # 70:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +----P-COV     
+  |     |  
+  |     +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4600.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.093144
+     2           3       0.089632
+     3           4       0.064018
+     4      RaTG13       0.038303
+     4      SARS-COV2    0.032526
+     3      P-COV        0.077056
+     2      SARS-COV     0.113882
+     1      batcov       0.156487
+     1      MERS-COV     0.447676
+
+
+Data set # 71:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4498.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.085215
+     2           3       0.090559
+     3           4       0.061968
+     4      RaTG13       0.035341
+     4      SARS-COV2    0.029762
+     3      P-COV        0.075555
+     2      SARS-COV     0.109703
+     1      batcov       0.149720
+     1      MERS-COV     0.450227
+
+
+Data set # 72:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+              +--4  
+       +------3  +-SARS-COV2 
+       |      |  
+  +----2      +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4575.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091503
+     2           3       0.100706
+     3           4       0.063902
+     4      RaTG13       0.033965
+     4      SARS-COV2    0.028719
+     3      P-COV        0.076299
+     2      SARS-COV     0.117719
+     1      batcov       0.159156
+     1      MERS-COV     0.434708
+
+
+Data set # 73:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4608.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087078
+     2           3       0.096317
+     3           4       0.064718
+     4      RaTG13       0.037129
+     4      SARS-COV2    0.035250
+     3      P-COV        0.071392
+     2      SARS-COV     0.111974
+     1      batcov       0.149132
+     1      MERS-COV     0.461669
+
+
+Data set # 74:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4641.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.083659
+     2           3       0.095312
+     3           4       0.071161
+     4      RaTG13       0.035543
+     4      SARS-COV2    0.033314
+     3      P-COV        0.074705
+     2      SARS-COV     0.112583
+     1      batcov       0.158940
+     1      MERS-COV     0.457424
+
+
+Data set # 75:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4522.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086413
+     2           3       0.095305
+     3           4       0.062923
+     4      RaTG13       0.031536
+     4      SARS-COV2    0.024972
+     3      P-COV        0.078467
+     2      SARS-COV     0.115713
+     1      batcov       0.154140
+     1      MERS-COV     0.444385
+
+
+Data set # 76:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4584.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.091124
+     2           3       0.093687
+     3           4       0.063223
+     4      RaTG13       0.034537
+     4      SARS-COV2    0.033515
+     3      P-COV        0.070895
+     2      SARS-COV     0.111647
+     1      batcov       0.153089
+     1      MERS-COV     0.457135
+
+
+Data set # 77:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4575.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086642
+     2           3       0.094006
+     3           4       0.068137
+     4      RaTG13       0.032454
+     4      SARS-COV2    0.032715
+     3      P-COV        0.075215
+     2      SARS-COV     0.115062
+     1      batcov       0.146027
+     1      MERS-COV     0.456418
+
+
+Data set # 78:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+        +----3   +-SARS-COV2 
+        |    |  
+  +-----2    +----P-COV     
+  |     |  
+  |     +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4633.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.092004
+     2           3       0.093405
+     3           4       0.061279
+     4      RaTG13       0.037039
+     4      SARS-COV2    0.029226
+     3      P-COV        0.073117
+     2      SARS-COV     0.119764
+     1      batcov       0.159775
+     1      MERS-COV     0.455097
+
+
+Data set # 79:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +--SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4612.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087198
+     2           3       0.094584
+     3           4       0.058785
+     4      RaTG13       0.034033
+     4      SARS-COV2    0.036996
+     3      P-COV        0.073763
+     2      SARS-COV     0.126581
+     1      batcov       0.155149
+     1      MERS-COV     0.448536
+
+
+Data set # 80:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4651.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.088120
+     2           3       0.096125
+     3           4       0.063446
+     4      RaTG13       0.037664
+     4      SARS-COV2    0.033938
+     3      P-COV        0.074931
+     2      SARS-COV     0.123385
+     1      batcov       0.153939
+     1      MERS-COV     0.453513
+
+
+Data set # 81:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4651.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089863
+     2           3       0.099365
+     3           4       0.064218
+     4      RaTG13       0.035925
+     4      SARS-COV2    0.033305
+     3      P-COV        0.075709
+     2      SARS-COV     0.116526
+     1      batcov       0.155934
+     1      MERS-COV     0.454214
+
+
+Data set # 82:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4523.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087863
+     2           3       0.092764
+     3           4       0.065022
+     4      RaTG13       0.038508
+     4      SARS-COV2    0.029421
+     3      P-COV        0.068900
+     2      SARS-COV     0.115766
+     1      batcov       0.152418
+     1      MERS-COV     0.443435
+
+
+Data set # 83:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4653.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089954
+     2           3       0.089918
+     3           4       0.066275
+     4      RaTG13       0.036678
+     4      SARS-COV2    0.028041
+     3      P-COV        0.074399
+     2      SARS-COV     0.119693
+     1      batcov       0.163743
+     1      MERS-COV     0.456842
+
+
+Data set # 84:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4502.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087296
+     2           3       0.090051
+     3           4       0.069480
+     4      RaTG13       0.039256
+     4      SARS-COV2    0.031338
+     3      P-COV        0.067083
+     2      SARS-COV     0.110608
+     1      batcov       0.157815
+     1      MERS-COV     0.436092
+
+
+Data set # 85:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4482.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.084309
+     2           3       0.091958
+     3           4       0.058726
+     4      RaTG13       0.032146
+     4      SARS-COV2    0.030791
+     3      P-COV        0.071234
+     2      SARS-COV     0.109589
+     1      batcov       0.155820
+     1      MERS-COV     0.449606
+
+
+Data set # 86:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4499.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086745
+     2           3       0.095225
+     3           4       0.064659
+     4      RaTG13       0.037918
+     4      SARS-COV2    0.031241
+     3      P-COV        0.069940
+     2      SARS-COV     0.114094
+     1      batcov       0.146631
+     1      MERS-COV     0.441840
+
+
+Data set # 87:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+              +--4  
+       +------3  +-SARS-COV2 
+       |      |  
+  +----2      +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4674.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087775
+     2           3       0.104091
+     3           4       0.060494
+     4      RaTG13       0.038988
+     4      SARS-COV2    0.033194
+     3      P-COV        0.080572
+     2      SARS-COV     0.112032
+     1      batcov       0.162573
+     1      MERS-COV     0.450905
+
+
+Data set # 88:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4587.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089148
+     2           3       0.096203
+     3           4       0.063020
+     4      RaTG13       0.038188
+     4      SARS-COV2    0.032908
+     3      P-COV        0.071511
+     2      SARS-COV     0.119761
+     1      batcov       0.149500
+     1      MERS-COV     0.449339
+
+
+Data set # 89:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4512.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087183
+     2           3       0.095819
+     3           4       0.062820
+     4      RaTG13       0.034395
+     4      SARS-COV2    0.031626
+     3      P-COV        0.073381
+     2      SARS-COV     0.106087
+     1      batcov       0.157274
+     1      MERS-COV     0.442851
+
+
+Data set # 90:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +-------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4610.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087834
+     2           3       0.099242
+     3           4       0.065614
+     4      RaTG13       0.032414
+     4      SARS-COV2    0.034982
+     3      P-COV        0.070832
+     2      SARS-COV     0.123971
+     1      batcov       0.157782
+     1      MERS-COV     0.442471
+
+
+Data set # 91:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +---------------------------MERS-COV  
+
+
+requires a total of   4687.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.082931
+     2           3       0.096686
+     3           4       0.066416
+     4      RaTG13       0.036721
+     4      SARS-COV2    0.034450
+     3      P-COV        0.079237
+     2      SARS-COV     0.116082
+     1      batcov       0.156509
+     1      MERS-COV     0.464737
+
+
+Data set # 92:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4612.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087448
+     2           3       0.099307
+     3           4       0.066797
+     4      RaTG13       0.033783
+     4      SARS-COV2    0.029554
+     3      P-COV        0.073552
+     2      SARS-COV     0.117304
+     1      batcov       0.155462
+     1      MERS-COV     0.452420
+
+
+Data set # 93:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1---------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4571.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089256
+     2           3       0.095232
+     3           4       0.066141
+     4      RaTG13       0.039484
+     4      SARS-COV2    0.035632
+     3      P-COV        0.069277
+     2      SARS-COV     0.112721
+     1      batcov       0.159147
+     1      MERS-COV     0.438819
+
+
+Data set # 94:
+
+
+One most parsimonious tree found:
+
+
+                +--RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4538.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.082400
+     2           3       0.095510
+     3           4       0.062105
+     4      RaTG13       0.039001
+     4      SARS-COV2    0.029336
+     3      P-COV        0.074887
+     2      SARS-COV     0.117898
+     1      batcov       0.146748
+     1      MERS-COV     0.449841
+
+
+Data set # 95:
+
+
+One most parsimonious tree found:
+
+
+                +-RaTG13    
+             +--4  
+       +-----3  +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4545.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.084363
+     2           3       0.090953
+     3           4       0.063927
+     4      RaTG13       0.032115
+     4      SARS-COV2    0.031150
+     3      P-COV        0.073594
+     2      SARS-COV     0.117018
+     1      batcov       0.150379
+     1      MERS-COV     0.455920
+
+
+Data set # 96:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +-----SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4490.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.082524
+     2           3       0.099402
+     3           4       0.062420
+     4      RaTG13       0.030996
+     4      SARS-COV2    0.032434
+     3      P-COV        0.076954
+     2      SARS-COV     0.108207
+     1      batcov       0.150912
+     1      MERS-COV     0.442267
+
+
+Data set # 97:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +---P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4526.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.086817
+     2           3       0.093733
+     3           4       0.064695
+     4      RaTG13       0.037795
+     4      SARS-COV2    0.030390
+     3      P-COV        0.070208
+     2      SARS-COV     0.119388
+     1      batcov       0.155764
+     1      MERS-COV     0.436034
+
+
+Data set # 98:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4585.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.084206
+     2           3       0.098248
+     3           4       0.061997
+     4      RaTG13       0.039311
+     4      SARS-COV2    0.031219
+     3      P-COV        0.076283
+     2      SARS-COV     0.119221
+     1      batcov       0.150744
+     1      MERS-COV     0.447867
+
+
+Data set # 99:
+
+
+One most parsimonious tree found:
+
+
+                 +-RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +-------------------------MERS-COV  
+
+
+requires a total of   4511.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.089003
+     2           3       0.099212
+     3           4       0.068473
+     4      RaTG13       0.031851
+     4      SARS-COV2    0.030854
+     3      P-COV        0.071214
+     2      SARS-COV     0.113604
+     1      batcov       0.158171
+     1      MERS-COV     0.428814
+
+
+Data set # 100:
+
+
+One most parsimonious tree found:
+
+
+                 +RaTG13    
+             +---4  
+       +-----3   +-SARS-COV2 
+       |     |  
+  +----2     +----P-COV     
+  |    |  
+  |    +------SARS-COV  
+  |  
+  1--------batcov    
+  |  
+  +--------------------------MERS-COV  
+
+
+requires a total of   4568.000
+
+  between      and       length
+  -------      ---       ------
+     1           2       0.087810
+     2           3       0.092817
+     3           4       0.061658
+     4      RaTG13       0.031831
+     4      SARS-COV2    0.034905
+     3      P-COV        0.078068
+     2      SARS-COV     0.119835
+     1      batcov       0.155183
+     1      MERS-COV     0.442877
+
